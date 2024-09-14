@@ -1,0 +1,222 @@
+[0.017s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/sun_interfaces -- -j8 -l8
+[0.044s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.200s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.206s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.208s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.240s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.592s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.818s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.172s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.199s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.199s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.199s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.224s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.232s] -- Added test 'lint_cmake' to check CMake code style
+[1.233s] -- Added test 'xmllint' to check XML markup files
+[1.235s] -- Configuring done
+[1.261s] -- Generating done
+[1.263s] -- Build files have been written to: /home/nakarin/RoboticsDevExam2/build/sun_interfaces
+[1.286s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.297s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.312s] [  6%] Built target ament_cmake_python_copy_sun_interfaces
+[1.639s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_generator_c[0m
+[1.650s] [  9%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.c.o[0m
+[1.653s] running egg_info
+[1.654s] writing sun_interfaces.egg-info/PKG-INFO
+[1.654s] writing dependency_links to sun_interfaces.egg-info/dependency_links.txt
+[1.654s] writing top-level names to sun_interfaces.egg-info/top_level.txt
+[1.656s] reading manifest file 'sun_interfaces.egg-info/SOURCES.txt'
+[1.657s] writing manifest file 'sun_interfaces.egg-info/SOURCES.txt'
+[1.692s] [  9%] Built target ament_cmake_python_build_sun_interfaces_egg
+[1.715s] [ 12%] [32m[1mLinking C shared library libsun_interfaces__rosidl_generator_c.so[0m
+[1.727s] [ 12%] Built target sun_interfaces__cpp
+[1.739s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.740s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.741s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.761s] [ 22%] Built target sun_interfaces__rosidl_generator_c
+[1.773s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.775s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.776s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.261s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_cpp[0m
+[2.280s] [ 35%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sun_interfaces/srv/pizza_pose__type_support.cpp.o[0m
+[2.282s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_c[0m
+[2.295s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.299s] [ 38%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sun_interfaces/srv/pizza_pose__type_support.cpp.o[0m
+[2.314s] [ 41%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sun_interfaces/srv/detail/pizza_pose__type_support.cpp.o[0m
+[2.331s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.345s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_c[0m
+[2.348s] [ 45%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_c.so[0m
+[2.352s] [ 48%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sun_interfaces/srv/detail/dds_fastrtps/pizza_pose__type_support.cpp.o[0m
+[2.362s] [ 51%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sun_interfaces/srv/detail/pizza_pose__type_support.c.o[0m
+[2.376s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.398s] [ 54%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sun_interfaces/srv/detail/pizza_pose__type_support_c.cpp.o[0m
+[2.405s] [ 54%] Built target sun_interfaces__rosidl_typesupport_c
+[2.421s] [ 58%] [32m[1mLinking C shared library libsun_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.468s] [ 58%] Built target sun_interfaces__rosidl_typesupport_introspection_c
+[2.672s] [ 61%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_cpp.so[0m
+[2.721s] [ 61%] Built target sun_interfaces__rosidl_typesupport_cpp
+[2.859s] [ 64%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.965s] [ 64%] Built target sun_interfaces__rosidl_typesupport_introspection_cpp
+[3.017s] [ 67%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.103s] [ 70%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.131s] [ 70%] Built target sun_interfaces__rosidl_typesupport_fastrtps_c
+[3.215s] [ 70%] Built target sun_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.246s] [ 70%] Built target sun_interfaces
+[3.282s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.955s] [ 74%] Built target sun_interfaces__py
+[3.967s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_generator_py[0m
+[3.981s] [ 77%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sun_interfaces/srv/_pizza_pose_s.c.o[0m
+[4.177s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/libsun_interfaces__rosidl_generator_py.so[0m
+[4.241s] [ 80%] Built target sun_interfaces__rosidl_generator_py
+[4.258s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_c__pyext[0m
+[4.258s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.259s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.278s] [ 83%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.279s] [ 90%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.280s] [ 90%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.439s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.444s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.456s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.521s] [100%] Built target sun_interfaces__rosidl_typesupport_c__pyext
+[4.530s] [100%] Built target sun_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.539s] [100%] Built target sun_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.560s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/sun_interfaces -- -j8 -l8
+[4.695s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/sun_interfaces
+[4.706s] -- Install configuration: ""
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/ament_index/resource_index/rosidl_interfaces/sun_interfaces
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.707s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.707s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.h
+[4.708s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__functions.h
+[4.708s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__struct.h
+[4.708s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__functions.c
+[4.708s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/pizza_pose.h
+[4.708s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/library_path.sh
+[4.708s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/library_path.dsv
+[4.709s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_c.so
+[4.709s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_c.so" to ""
+[4.709s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.709s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.709s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.709s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.709s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.710s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_fastrtps_c.h
+[4.710s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.710s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.710s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.710s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.710s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.710s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.711s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.711s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.c
+[4.711s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_introspection_c.h
+[4.711s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_c.so
+[4.711s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.711s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_c.so
+[4.712s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_c.so" to ""
+[4.712s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.712s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.712s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.712s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__builder.hpp
+[4.712s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__struct.hpp
+[4.713s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__traits.hpp
+[4.713s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/pizza_pose.hpp
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.713s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/dds_fastrtps
+[4.714s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.714s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.714s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.714s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.714s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.714s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.714s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.cpp
+[4.715s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.715s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.715s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.715s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_cpp.so
+[4.715s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.716s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/pythonpath.sh
+[4.716s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/pythonpath.dsv
+[4.716s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info
+[4.716s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.716s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.716s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.716s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.717s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces
+[4.717s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/libsun_interfaces__rosidl_generator_py.so
+[4.717s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.717s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.717s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.717s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_c.c
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/__init__.py
+[4.718s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/__init__.py
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose.py
+[4.718s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose_s.c
+[4.779s] Listing '/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces'...
+[4.779s] Compiling '/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/__init__.py'...
+[4.779s] Listing '/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv'...
+[4.779s] Compiling '/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/__init__.py'...
+[4.779s] Compiling '/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose.py'...
+[4.785s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.785s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.785s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.785s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.786s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.786s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.786s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_py.so
+[4.787s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_py.so" to ""
+[4.787s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose.idl
+[4.787s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose.srv
+[4.787s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose_Request.msg
+[4.787s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose_Response.msg
+[4.787s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/ament_index/resource_index/package_run_dependencies/sun_interfaces
+[4.788s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/ament_index/resource_index/parent_prefix_path/sun_interfaces
+[4.788s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/ament_prefix_path.sh
+[4.788s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/ament_prefix_path.dsv
+[4.788s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/path.sh
+[4.788s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/environment/path.dsv
+[4.788s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/local_setup.bash
+[4.788s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/local_setup.sh
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/local_setup.zsh
+[4.789s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/local_setup.dsv
+[4.789s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/package.dsv
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/ament_index/resource_index/packages/sun_interfaces
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cExport.cmake
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.789s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cExport.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cppExport.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.790s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.791s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.791s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.791s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cppExport.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_pyExport.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.792s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.793s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.793s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.793s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfacesConfig.cmake
+[4.793s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfacesConfig-version.cmake
+[4.793s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_interfaces/share/sun_interfaces/package.xml
+[4.794s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/sun_interfaces
