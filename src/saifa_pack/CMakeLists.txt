@@ -30,6 +30,8 @@ install(PROGRAMS
   scripts/dummy_script.py
   scripts/teleop_turtle.py
   scripts/teleop_controller.py
+  scripts/cp_controller.py
+  scripts/sum_controller.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
