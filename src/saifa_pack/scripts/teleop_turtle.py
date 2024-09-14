@@ -9,7 +9,7 @@ import termios
 import tty
 from turtlesim_plus_interfaces.srv import GivePosition
 from turtlesim.msg import Pose
-
+from sun_interfaces.srv import PizzaPose
 
 # getKey function (based on teleop_twist_keyboard)
 def getKey():
@@ -27,12 +27,22 @@ class TeleopTurtle(Node):
         # ros2 run saifa_pack teleop_turtle.py --ros-args -p name:="t_name"
         self.publisher = self.create_publisher(Twist, '/' +self.name +'/cmd_vel', 10)
         self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos,10)
+        
+        self.pizza_pose_client = self.create_client(PizzaPose, 'save_pizza')
+        
+        # Wait for the service to be available
+        while not self.pizza_pose_client.wait_for_service(timeout_sec=1.0):
+            self.get_logger().info('Waiting for the server to be available...')
+            
+        self.get_logger().info('Conected to server')
+        
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.velocity = Twist()
         self.exit_flag = False
         self.spawn_pizza_client = self.create_client(GivePosition,'/spawn_pizza')
         self.turtle_position = [0,0]
         self.keep_pose = []
+        self.save_times = 0
 
     def turtle_pos(self,msg):
         self.turtle_position[0] = msg.x
@@ -64,10 +74,21 @@ class TeleopTurtle(Node):
             self.spawn_pizza_client.call_async(position_request)
         elif key == 'u':
             # write to yaml
+            temp_x = []
+            temp_y = []
+            self.save_times += 1
+            for i in range (len(self.keep_pose)):
+                temp_x.append(self.keep_pose[i][0])
+                temp_y.append(self.keep_pose[i][1])
+            self.save_pizza_request(temp_x, temp_y, self.save_times)
             self.keep_pose = []
+            self.get_logger().info(f"Update pizza postion {self.save_times}")
+
         elif key == 'c':
             # eat all of the keep pose -> send keep pose to teleop controller 
+            # self.
             pass
+            
         elif key == 'e':
             self.velocity.linear.x = 0.0
             self.velocity.angular.z = 0.0
@@ -75,6 +96,16 @@ class TeleopTurtle(Node):
 
         # Publish the velocity
         self.publisher.publish(self.velocity)
+    
+    def save_pizza_request(self, x, y, save_times):
+        # Prepare the request message
+        request = PizzaPose.Request()
+        request.x = x
+        request.y = y
+        request.number = save_times
+        
+        # Call the service and wait for a response
+        self.pizza_pose_client.call_async(request)
 
 def main(args=None):
     global settings

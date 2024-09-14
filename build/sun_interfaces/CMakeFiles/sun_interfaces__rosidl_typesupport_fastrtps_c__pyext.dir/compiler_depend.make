@@ -245,6 +245,7 @@ CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_gener
   rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__type_support.h \
   rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h
 
 
@@ -375,6 +376,8 @@ rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h:
 /usr/include/python3.10/fileobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
 

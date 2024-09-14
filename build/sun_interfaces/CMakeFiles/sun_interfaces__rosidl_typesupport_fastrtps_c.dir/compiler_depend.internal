@@ -228,6 +228,7 @@ CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_
  /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h
  /usr/include/c++/11/stdlib.h
  /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
  /opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp/service_type_support.h
  /opt/ros/humble/include/rmw/rmw/types.h
  /opt/ros/humble/include/rcutils/rcutils/logging.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces
 
 # Utility rule file for turtlesim_plus_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/turtlesim_plus_interfaces_uninstall:
-	/usr/bin/cmake -P /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 turtlesim_plus_interfaces_uninstall: CMakeFiles/turtlesim_plus_interfaces_uninstall
 turtlesim_plus_interfaces_uninstall: CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/clean
 
 CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/turtlesim_plus_interfaces_uninstall.dir/depend
 

@@ -55,6 +55,7 @@ CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfa
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
   /usr/include/assert.h \
   /usr/include/string.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
@@ -74,7 +75,8 @@ CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfa
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
   /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
 
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -91,6 +93,8 @@ CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfa
 
 /opt/ros/humble/include/rcutils/rcutils/allocator.h:
 
+/usr/include/strings.h:
+
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/endianness.h:
@@ -104,8 +108,6 @@ CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfa
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/strings.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -149,6 +151,8 @@ rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h:
@@ -191,12 +195,6 @@ rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
@@ -218,6 +216,14 @@ rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__struct.h:
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/include/assert.h:
 

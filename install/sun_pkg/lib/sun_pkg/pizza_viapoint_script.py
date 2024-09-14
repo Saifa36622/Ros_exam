@@ -13,7 +13,7 @@ class PizzaViapointNode(Node):
         super().__init__('pizza_viapoint_node')
         
         # Create the service server
-        self.srv = self.create_service(PizzaPose, 'save_pizza', self.save_pizza_callback)
+        self.save_pizza_server = self.create_service(PizzaPose, 'save_pizza', self.save_pizza_callback)
         self.get_logger().info('Service server ready to receive 1D array of float64.')
 
         # Set path of .yaml file
@@ -26,11 +26,17 @@ class PizzaViapointNode(Node):
             self.get_logger().info(f"Directory created: {directory}")
     
     def save_pizza_callback(self, request, response):
+        temp = []
         # Handle the incoming 1D array of float64
         self.get_logger().info(f"Received pizza pose to save to pizza_pose.yaml")
         
+        for i in range(len(request.x)):
+            temp.append([request.x[i],request.y[i]])
+        
+        print(temp, request.number)
+        
         # Call the function to append data to YAML
-        self.append_to_yaml(request.data, request.number)
+        self.append_to_yaml(temp, request.number)
         
         # Save data to .yaml
         self.get_logger().info(f"Completed to save data to .yaml file")
