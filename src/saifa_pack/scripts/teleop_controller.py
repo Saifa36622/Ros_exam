@@ -92,7 +92,12 @@ class teleop_controller(Node):
     def eat_pizza(self):
         # Call the "eat pizza" service
         eat_request = Empty.Request()
-        self.eat_pizza_client.call_async(eat_request)
+        future = self.eat_pizza_client.call_async(eat_request)
+        rclpy.spin_until_future_complete(self, future)
+        if future.result() is not None:
+            self.get_logger().info(f'Pizza has been eated')
+        else:
+            self.get_logger().error('Service call failed')
 
     def timmer_callback(self):
         # Timer task runs every 0.1 seconds

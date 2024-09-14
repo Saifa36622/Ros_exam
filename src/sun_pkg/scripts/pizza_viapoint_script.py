@@ -36,6 +36,7 @@ class PizzaViapointNode(Node):
         self.clear_pizza_to_controller = self.create_client(PizzaPose, 'eatable_pizza')
         self.spawn_pizza_client = self.create_client(GivePosition, 'spawn_pizza')
         self.read_pizza_pose_client = self.create_client(Trigger, '/read_pizza_pose')
+        self.finish_auto_client = self.create_client(Trigger, 'finish_auto')
         
         # Define the output YAML file path
         output_dir = os.path.expanduser('~/ros2_yaml_files')  # Creates file in the home directory
@@ -87,6 +88,9 @@ class PizzaViapointNode(Node):
             return response
         else :
             self.get_logger().info("Don't have pizza on the floor")
+            temp_req = Trigger.Request()
+            self.finish_auto_client.call_async(temp_req)
+            return response
     
     def spawn_pizza_request(self, request, response):
         
@@ -126,12 +130,12 @@ class PizzaViapointNode(Node):
                 request = Trigger.Request()
                 self.get_logger().info("Sending data to copy/turtlesim_plus")
                 self.update_number += 1
-                future = self.read_pizza_pose_client.call_async(request)
-                rclpy.spin_until_future_complete(self, future)
-                if future.result() is not None:
-                    self.get_logger().info(f"Successfully sent data to copy/turtlesim_plus")
-                else:
-                    self.get_logger().error(f"Failed to send data to copy/turtlesim_plus")
+                self.read_pizza_pose_client.call_async(request)
+                # rclpy.spin_until_future_complete(self, future)
+                # if future.result() is not None:
+                #     self.get_logger().info(f"Successfully sent data to copy/turtlesim_plus")
+                # else:
+                #     self.get_logger().error(f"Failed to send data to copy/turtlesim_plus")
                 
                 return response
             return response
