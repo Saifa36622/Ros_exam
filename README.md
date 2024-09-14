@@ -48,8 +48,21 @@ then you might have too load some additional libraly for this project
 
 # System Architect
 
-![image](https://github.com/user-attachments/assets/7e5859aa-737b-454b-90fb-7ca0e8232f42)
+![image](https://github.com/user-attachments/assets/710f584a-7f18-49fc-8189-dd216e7c09ee)
 
+- **Tele-op Architect**
+
+<img src="https://github.com/user-attachments/assets/40e46043-d574-466f-8cc4-b8a72b2b6877" alt="alt text" width="500" height="500">
+
+![image](https://github.com/user-attachments/assets/9b6d481a-03e4-4ed1-af22-388dda36b0be)
+
+Tha main point of this node is to be manual controller for users by input via keyboard and control the velocity and the acceleration of the 
+turtle from point to point .There is going to be 2 node for this operation that are <br>
+- teleop_turtle -> this node is use to recieve input from the user keyboard and move turtle in the ways user inteded
+- teleop_controller -> this node is use in special occasion that is when user press clear ,we are going to ignore the input from the keyboard and use position and way point from our code calculation
+  to eat all remain of the pizza
+<br>
+and from the upper imagge it going to indicate that these node going  to be the one that recieve input from the user ,So we internde that we are going to save the input from user to .yaml file via these node
 
 
 # Fuction available
