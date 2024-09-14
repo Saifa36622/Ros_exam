@@ -92,12 +92,12 @@ class teleop_controller(Node):
     def eat_pizza(self):
         # Call the "eat pizza" service
         eat_request = Empty.Request()
-        future = self.eat_pizza_client.call_async(eat_request)
-        rclpy.spin_until_future_complete(self, future)
-        if future.result() is not None:
-            self.get_logger().info(f'Pizza has been eated')
-        else:
-            self.get_logger().error('Service call failed')
+        self.eat_pizza_client.call_async(eat_request)
+        # rclpy.spin_until_future_complete(self, future)
+        # if future.result() is not None:
+        #     self.get_logger().info(f'Pizza has been eated')
+        # else:
+        #     self.get_logger().error('Service call failed')
 
     def timmer_callback(self):
         # Timer task runs every 0.1 seconds
@@ -112,6 +112,7 @@ class teleop_controller(Node):
                 # Calculate distance to the next goal
                 d_x = self.goal_pose[0][0] - self.R_pose[0]
                 d_y = self.goal_pose[0][1] - self.R_pose[1]
+                self.get_logger().info("IN7 - New goal")
 
             # Calculate Euclidean distance and angle error
             d = math.sqrt((d_x * d_x) + (d_y * d_y))
@@ -119,8 +120,14 @@ class teleop_controller(Node):
             angular_error = turtle_angle - self.R_pose[2]
             e = math.atan2(math.sin(angular_error), math.cos(angular_error))
 
-            if d >= 0.05 and abs(angular_error) > 0.1:
+            if d >= 0.05:
                 # Move towards the goal if distance is significant
+                # Wrap around
+                if e > math.pi:
+                    e -= 2*math.pi
+                elif e < -math.pi:
+                    e += 2*math.pi
+                    
                 vx = self.kp * d
                 w = self.kp_a * e
             else:
@@ -137,7 +144,7 @@ class teleop_controller(Node):
 
             # Publish velocity commands
             self.cmdvel(vx, w)
-
+            
         if self.timer_task_active == False and self.state == 1:
             # Once the task is done, reset and stop movement
             self.get_logger().info("Timer task is done. Stopping movement.")

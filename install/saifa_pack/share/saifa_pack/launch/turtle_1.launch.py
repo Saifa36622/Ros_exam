@@ -110,5 +110,3 @@ def generate_launch_description():
     launch_des.add_action(start_cp)
 
     return launch_des
-
-

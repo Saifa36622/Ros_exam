@@ -140,7 +140,7 @@ class PizzaViapointNode(Node):
                 return response
             return response
         else:
-            self.get_logger().warning(f"Can't update pizza position after {self.update_number} times")  
+            self.get_logger().warning(f"Can't update pizza position after {self.update_number - 1} times")  
             return response
     
     def clear_yaml(self, file_path):

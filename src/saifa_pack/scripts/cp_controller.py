@@ -132,6 +132,11 @@ class cp_controller(Node):
             # If close to the goal, spawn a pizza and proceed to the next goal
             if d >= 0.05 and abs(angular_error) > 0.1:
                 # Move towards the goal if distance is significant
+                # Wrap around
+                if e > math.pi:
+                    e -= 2*math.pi
+                elif e < -math.pi:
+                    e += 2*math.pi
                 vx = self.kp * d
                 w = self.kp_a * e
             else:
