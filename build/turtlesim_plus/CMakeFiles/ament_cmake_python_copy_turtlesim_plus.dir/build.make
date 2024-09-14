@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/turtlesim_plus
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/turtlesim_plus
 
 # Utility rule file for ament_cmake_python_copy_turtlesim_plus.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_turtlesim_plus:
-	/usr/bin/cmake -E copy_directory /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus/turtlesim_plus /home/nakarin/RoboticsDevExam2/build/turtlesim_plus/ament_cmake_python/turtlesim_plus/turtlesim_plus
+	/usr/bin/cmake -E copy_directory /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus/turtlesim_plus /home/saifa/Desktop/Ros_exam/build/turtlesim_plus/ament_cmake_python/turtlesim_plus/turtlesim_plus
 
 ament_cmake_python_copy_turtlesim_plus: CMakeFiles/ament_cmake_python_copy_turtlesim_plus
 ament_cmake_python_copy_turtlesim_plus: CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/turtlesim_plus && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus /home/nakarin/RoboticsDevExam2/build/turtlesim_plus /home/nakarin/RoboticsDevExam2/build/turtlesim_plus /home/nakarin/RoboticsDevExam2/build/turtlesim_plus/CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/turtlesim_plus && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus /home/saifa/Desktop/Ros_exam/build/turtlesim_plus /home/saifa/Desktop/Ros_exam/build/turtlesim_plus /home/saifa/Desktop/Ros_exam/build/turtlesim_plus/CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim_plus.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nakarin/RoboticsDevExam2/src/sun_pkg
+# Install script for directory: /home/saifa/Desktop/Ros_exam/src/sun_pkg
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nakarin/RoboticsDevExam2/install/sun_pkg")
+  set(CMAKE_INSTALL_PREFIX "/home/saifa/Desktop/Ros_exam/install/sun_pkg")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,33 +43,33 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/pythonpath.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/pythonpath.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/pythonpath.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/pythonpath.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_python/sun_pkg/sun_pkg.egg-info/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_python/sun_pkg/sun_pkg.egg-info/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sun_pkg" TYPE DIRECTORY FILES "/home/nakarin/RoboticsDevExam2/src/sun_pkg/sun_pkg/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/sun_pkg" TYPE DIRECTORY FILES "/home/saifa/Desktop/Ros_exam/src/sun_pkg/sun_pkg/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   execute_process(
         COMMAND
         "/usr/bin/python3" "-m" "compileall"
-        "/home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg"
+        "/home/saifa/Desktop/Ros_exam/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg"
       )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sun_pkg" TYPE PROGRAM FILES
-    "/home/nakarin/RoboticsDevExam2/src/sun_pkg/scripts/dummy_script.py"
-    "/home/nakarin/RoboticsDevExam2/src/sun_pkg/scripts/pizza_viapoint_script.py"
+    "/home/saifa/Desktop/Ros_exam/src/sun_pkg/scripts/dummy_script.py"
+    "/home/saifa/Desktop/Ros_exam/src/sun_pkg/scripts/pizza_viapoint_script.py"
     )
 endif()
 
@@ -80,7 +80,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sun_pkg/cpp_node_test"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sun_pkg" TYPE EXECUTABLE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/cpp_node_test")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sun_pkg" TYPE EXECUTABLE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/cpp_node_test")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sun_pkg/cpp_node_test" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/sun_pkg/cpp_node_test")
     file(RPATH_CHANGE
@@ -98,11 +98,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sun_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/sun_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sun_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/sun_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,7 +110,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -118,42 +118,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/environment" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/packages/sun_pkg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_index/share/ament_index/resource_index/packages/sun_pkg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg/cmake" TYPE FILE FILES
-    "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_core/sun_pkgConfig.cmake"
-    "/home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_core/sun_pkgConfig-version.cmake"
+    "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_core/sun_pkgConfig.cmake"
+    "/home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_core/sun_pkgConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/nakarin/RoboticsDevExam2/src/sun_pkg/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sun_pkg" TYPE FILE FILES "/home/saifa/Desktop/Ros_exam/src/sun_pkg/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -164,5 +164,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/nakarin/RoboticsDevExam2/build/sun_pkg/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/saifa/Desktop/Ros_exam/build/sun_pkg/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -203,6 +203,9 @@ class PizzaPose_Request(metaclass=Metaclass_PizzaPose_Request):
 # Import statements for member types
 
 # already imported above
+# import builtins
+
+# already imported above
 # import rosidl_parser.definition
 
 
@@ -251,18 +254,22 @@ class PizzaPose_Response(metaclass=Metaclass_PizzaPose_Response):
     """Message class 'PizzaPose_Response'."""
 
     __slots__ = [
+        '_isfinish',
     ]
 
     _fields_and_field_types = {
+        'isfinish': 'int32',
     }
 
     SLOT_TYPES = (
+        rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        self.isfinish = kwargs.get('isfinish', int())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -293,12 +300,29 @@ class PizzaPose_Response(metaclass=Metaclass_PizzaPose_Response):
     def __eq__(self, other):
         if not isinstance(other, self.__class__):
             return False
+        if self.isfinish != other.isfinish:
+            return False
         return True
 
     @classmethod
     def get_fields_and_field_types(cls):
         from copy import copy
         return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def isfinish(self):
+        """Message field 'isfinish'."""
+        return self._isfinish
+
+    @isfinish.setter
+    def isfinish(self, value):
+        if __debug__:
+            assert \
+                isinstance(value, int), \
+                "The 'isfinish' field must be of type 'int'"
+            assert value >= -2147483648 and value < 2147483648, \
+                "The 'isfinish' field must be an integer in [-2147483648, 2147483647]"
+        self._isfinish = value
 
 
 class Metaclass_PizzaPose(type):

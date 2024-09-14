@@ -1,7 +1,7 @@
 CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o: \
- /home/nakarin/RoboticsDevExam2/src/sun_pkg/src/cpp_node.cpp \
+ /home/saifa/Desktop/Ros_exam/src/sun_pkg/src/cpp_node.cpp \
  /usr/include/stdc-predef.h \
- /home/nakarin/RoboticsDevExam2/src/sun_pkg/include/sun_pkg/cpp_header.hpp \
+ /home/saifa/Desktop/Ros_exam/src/sun_pkg/include/sun_pkg/cpp_header.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

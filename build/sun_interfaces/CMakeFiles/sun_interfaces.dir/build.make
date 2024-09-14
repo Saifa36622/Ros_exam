@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_interfaces
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_interfaces
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_interfaces
 
 # Utility rule file for sun_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/sun_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/sun_interfaces.dir/progress.make
 
-CMakeFiles/sun_interfaces: /home/nakarin/RoboticsDevExam2/src/sun_interfaces/srv/PizzaPose.srv
+CMakeFiles/sun_interfaces: /home/saifa/Desktop/Ros_exam/src/sun_interfaces/srv/PizzaPose.srv
 CMakeFiles/sun_interfaces: rosidl_cmake/srv/PizzaPose_Request.msg
 CMakeFiles/sun_interfaces: rosidl_cmake/srv/PizzaPose_Response.msg
 
@@ -83,6 +83,6 @@ CMakeFiles/sun_interfaces.dir/clean:
 .PHONY : CMakeFiles/sun_interfaces.dir/clean
 
 CMakeFiles/sun_interfaces.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/CMakeFiles/sun_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/CMakeFiles/sun_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sun_interfaces.dir/depend
 

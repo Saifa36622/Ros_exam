@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_pkg
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_pkg
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_pkg
 
 # Utility rule file for ament_cmake_python_copy_sun_pkg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_sun_pkg:
-	/usr/bin/cmake -E copy_directory /home/nakarin/RoboticsDevExam2/src/sun_pkg/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg/ament_cmake_python/sun_pkg/sun_pkg
+	/usr/bin/cmake -E copy_directory /home/saifa/Desktop/Ros_exam/src/sun_pkg/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg/ament_cmake_python/sun_pkg/sun_pkg
 
 ament_cmake_python_copy_sun_pkg: CMakeFiles/ament_cmake_python_copy_sun_pkg
 ament_cmake_python_copy_sun_pkg: CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/sun_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_pkg /home/nakarin/RoboticsDevExam2/src/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg/CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/sun_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_pkg /home/saifa/Desktop/Ros_exam/src/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg/CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_sun_pkg.dir/depend
 

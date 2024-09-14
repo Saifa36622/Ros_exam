@@ -7,9 +7,11 @@ def generate_launch_description():
 
     launch_des = LaunchDescription()
 
+    name = "t_name"
+
     turtlesim = Node(
     package='turtlesim_plus',
-    namespace='',
+    namespace=name,
     executable='turtlesim_plus_node.py',
     name='turtlesim'
     )
@@ -19,7 +21,7 @@ def generate_launch_description():
     interface_name = 'turtlesim/srv/Kill'
     cmd2 = (
     f"ros2 service call /remove_turtle {interface_name} "
-    f"'{{name: \"turtle1\"}}'"
+    f'{{name: "/{name}/turtle1"}}'
     )
 
     kill_turtle = ExecuteProcess(
@@ -28,7 +30,7 @@ def generate_launch_description():
     )
     launch_des.add_action(kill_turtle)
 
-    name = "t_name"
+    
 
     interface_name = 'turtlesim/srv/Spawn'
     cmd2 = (
@@ -42,14 +44,14 @@ def generate_launch_description():
     )
     launch_des.add_action(set_turtle)
 
-    # tele_turtlesim = Node(
-    # package='saifa_pack',
-    # namespace=name  ,
-    # executable='teleop_turtle.py',
-    # name= name + "teleop" 
-    # )
+    tele_control_turtlesim = Node(
+    package='saifa_pack',
+    namespace=name,
+    executable='teleop_controller.py',
+    name= name + "teleop_controller" 
+    )
 
-    # launch_des.add_action(tele_turtlesim)
+    launch_des.add_action(tele_control_turtlesim)
 
 
     return launch_des

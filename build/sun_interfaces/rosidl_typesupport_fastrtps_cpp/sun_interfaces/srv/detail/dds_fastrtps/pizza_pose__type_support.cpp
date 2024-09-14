@@ -309,8 +309,8 @@ cdr_serialize(
   const sun_interfaces::srv::PizzaPose_Response & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: structure_needs_at_least_one_member
-  cdr << ros_message.structure_needs_at_least_one_member;
+  // Member: isfinish
+  cdr << ros_message.isfinish;
   return true;
 }
 
@@ -320,8 +320,8 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   sun_interfaces::srv::PizzaPose_Response & ros_message)
 {
-  // Member: structure_needs_at_least_one_member
-  cdr >> ros_message.structure_needs_at_least_one_member;
+  // Member: isfinish
+  cdr >> ros_message.isfinish;
 
   return true;
 }
@@ -339,9 +339,9 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: structure_needs_at_least_one_member
+  // Member: isfinish
   {
-    size_t item_size = sizeof(ros_message.structure_needs_at_least_one_member);
+    size_t item_size = sizeof(ros_message.isfinish);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -369,12 +369,13 @@ max_serialized_size_PizzaPose_Response(
   is_plain = true;
 
 
-  // Member: structure_needs_at_least_one_member
+  // Member: isfinish
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint8_t);
-    current_alignment += array_size * sizeof(uint8_t);
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
 
   size_t ret_val = current_alignment - initial_alignment;
@@ -385,7 +386,7 @@ max_serialized_size_PizzaPose_Response(
     using DataType = sun_interfaces::srv::PizzaPose_Response;
     is_plain =
       (
-      offsetof(DataType, structure_needs_at_least_one_member) +
+      offsetof(DataType, isfinish) +
       last_member_size
       ) == ret_val;
   }
