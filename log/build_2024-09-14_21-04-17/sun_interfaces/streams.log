@@ -1,0 +1,221 @@
+[0.027s] Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_interfaces -- -j16 -l16
+[0.046s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.169s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.174s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.176s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.199s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.460s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.649s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.974s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.974s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.974s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.991s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.998s] -- Added test 'lint_cmake' to check CMake code style
+[0.998s] -- Added test 'xmllint' to check XML markup files
+[1.000s] -- Configuring done
+[1.026s] -- Generating done
+[1.028s] -- Build files have been written to: /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+[1.052s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.063s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.074s] [  6%] Built target ament_cmake_python_copy_sun_interfaces
+[1.404s] [  6%] Built target sun_interfaces__cpp
+[1.416s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_generator_c[0m
+[1.416s] running egg_info
+[1.416s] writing sun_interfaces.egg-info/PKG-INFO
+[1.416s] writing dependency_links to sun_interfaces.egg-info/dependency_links.txt
+[1.416s] writing top-level names to sun_interfaces.egg-info/top_level.txt
+[1.420s] reading manifest file 'sun_interfaces.egg-info/SOURCES.txt'
+[1.420s] writing manifest file 'sun_interfaces.egg-info/SOURCES.txt'
+[1.435s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.439s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.454s] [ 16%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_generator_c.dir/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.c.o[0m
+[1.467s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.505s] [ 19%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sun_interfaces/srv/detail/dds_fastrtps/pizza_pose__type_support.cpp.o[0m
+[1.528s] [ 19%] Built target ament_cmake_python_build_sun_interfaces_egg
+[1.639s] [ 22%] [32m[1mLinking C shared library libsun_interfaces__rosidl_generator_c.so[0m
+[1.783s] [ 22%] Built target sun_interfaces__rosidl_generator_c
+[1.826s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.828s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.837s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.562s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_cpp[0m
+[2.606s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.624s] [ 35%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sun_interfaces/srv/pizza_pose__type_support.cpp.o[0m
+[2.634s] [ 38%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sun_interfaces/srv/detail/pizza_pose__type_support.cpp.o[0m
+[2.642s] [ 41%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.643s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_c[0m
+[2.669s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_c[0m
+[2.670s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.670s] [ 45%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sun_interfaces/srv/detail/pizza_pose__type_support.c.o[0m
+[2.692s] [ 48%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/sun_interfaces/srv/pizza_pose__type_support.cpp.o[0m
+[2.720s] [ 51%] [32mBuilding CXX object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sun_interfaces/srv/detail/pizza_pose__type_support_c.cpp.o[0m
+[2.765s] [ 54%] [32m[1mLinking C shared library libsun_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.784s] [ 58%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_c.so[0m
+[2.844s] [ 58%] Built target sun_interfaces__rosidl_typesupport_introspection_c
+[2.882s] [ 58%] Built target sun_interfaces__rosidl_typesupport_c
+[2.897s] [ 61%] Built target sun_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.037s] [ 64%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_cpp.so[0m
+[3.102s] [ 64%] Built target sun_interfaces__rosidl_typesupport_cpp
+[3.191s] [ 67%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.218s] [ 70%] [32m[1mLinking CXX shared library libsun_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.324s] [ 70%] Built target sun_interfaces__rosidl_typesupport_introspection_cpp
+[3.359s] [ 70%] Built target sun_interfaces__rosidl_typesupport_fastrtps_c
+[3.387s] [ 70%] Built target sun_interfaces
+[3.418s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.740s] [ 74%] Built target sun_interfaces__py
+[3.752s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_generator_py[0m
+[3.765s] [ 77%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sun_interfaces/srv/_pizza_pose_s.c.o[0m
+[3.855s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/libsun_interfaces__rosidl_generator_py.so[0m
+[3.890s] [ 80%] Built target sun_interfaces__rosidl_generator_py
+[3.900s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_c__pyext[0m
+[3.900s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.901s] [35m[1mConsolidate compiler generated dependencies of target sun_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.913s] [ 90%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.913s] [ 90%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.913s] [ 90%] [32mBuilding C object CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.988s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.988s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.990s] [100%] [32m[1mLinking C shared library rosidl_generator_py/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.019s] [100%] Built target sun_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.019s] [100%] Built target sun_interfaces__rosidl_typesupport_c__pyext
+[4.020s] [100%] Built target sun_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.031s] Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_interfaces -- -j16 -l16
+[4.102s] Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+[4.109s] -- Install configuration: ""
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/ament_index/resource_index/rosidl_interfaces/sun_interfaces
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.110s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/pizza_pose.h
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.110s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__functions.h
+[4.110s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__functions.c
+[4.110s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.h
+[4.110s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__struct.h
+[4.110s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/library_path.sh
+[4.111s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/library_path.dsv
+[4.111s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_c.so
+[4.111s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_c.so" to ""
+[4.111s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.111s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.111s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.111s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.112s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_fastrtps_c.h
+[4.112s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.112s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.112s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.112s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.c
+[4.112s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_introspection_c.h
+[4.113s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_c.so
+[4.113s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.113s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_c.so
+[4.113s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_c.so" to ""
+[4.113s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.114s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__traits.hpp
+[4.114s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__builder.hpp
+[4.114s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__struct.hpp
+[4.114s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/pizza_pose.hpp
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.114s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.114s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[4.115s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/dds_fastrtps
+[4.115s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.115s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.115s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces
+[4.115s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv
+[4.115s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail
+[4.115s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__rosidl_typesupport_introspection_cpp.hpp
+[4.115s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/include/sun_interfaces/sun_interfaces/srv/detail/pizza_pose__type_support.cpp
+[4.116s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.116s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.116s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_cpp.so
+[4.116s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.117s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/pythonpath.sh
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/pythonpath.dsv
+[4.117s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.117s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/__init__.py
+[4.117s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_c.c
+[4.118s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/__init__.py
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose.py
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose_s.c
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.118s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.119s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.119s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/libsun_interfaces__rosidl_generator_py.so
+[4.119s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.154s] Listing '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces'...
+[4.154s] Compiling '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/__init__.py'...
+[4.154s] Listing '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv'...
+[4.154s] Compiling '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/__init__.py'...
+[4.154s] Compiling '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/srv/_pizza_pose.py'...
+[4.157s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.158s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.158s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.158s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.158s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.159s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/local/lib/python3.10/dist-packages/sun_interfaces/sun_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.159s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_py.so
+[4.159s] -- Set runtime path of "/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/libsun_interfaces__rosidl_generator_py.so" to ""
+[4.159s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose.idl
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose.srv
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose_Request.msg
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/srv/PizzaPose_Response.msg
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/ament_index/resource_index/package_run_dependencies/sun_interfaces
+[4.160s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/ament_index/resource_index/parent_prefix_path/sun_interfaces
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/ament_prefix_path.sh
+[4.160s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/ament_prefix_path.dsv
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/path.sh
+[4.160s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/environment/path.dsv
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/local_setup.bash
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/local_setup.sh
+[4.160s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/local_setup.zsh
+[4.160s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/local_setup.dsv
+[4.160s] -- Installing: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.dsv
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/ament_index/resource_index/packages/sun_interfaces
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_cppExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.161s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cppExport.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_pyExport.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/export_sun_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfacesConfig.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/cmake/sun_interfacesConfig-version.cmake
+[4.162s] -- Up-to-date: /home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.xml
+[4.164s] Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_interfaces
