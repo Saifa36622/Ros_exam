@@ -7,6 +7,9 @@ import sys
 import select
 import termios
 import tty
+from turtlesim_plus_interfaces.srv import GivePosition
+from turtlesim.msg import Pose
+
 
 # getKey function (based on teleop_twist_keyboard)
 def getKey():
@@ -20,11 +23,18 @@ class TeleopTurtle(Node):
     def __init__(self):
         super().__init__('teleop_turtle')
         self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        self.timer = self.create_timer(0.1, self.publish_velocity)
+        self.create_subscription(Pose,'/turtle1/pose',self.turtle_pos,10)
+        self.timer = self.create_timer(0.1, self.timer_callback)
         self.velocity = Twist()
         self.exit_flag = False
+        self.spawn_pizza_client = self.create_client(GivePosition,'/spawn_pizza')
+        self.turtle_position = []
 
-    def publish_velocity(self):
+    def turtle_pos(self,msg):
+        self.turtle_position[0] = msg.x
+        self.turtle_position[1] = msg.y
+
+    def timer_callback(self):
         key = getKey()
         if key == 'w':
             self.velocity.linear.x = 2.0
@@ -41,6 +51,12 @@ class TeleopTurtle(Node):
         elif key == 'q':
             self.exit_flag = True
             return
+        elif key == 'r':
+            position_request = GivePosition.Request()
+            position_request.x = self.turtle_position[0]
+            position_request.y = self.turtle_position[1]
+            self.spawn_pizza_client.call_async(position_request)
+
         else:
             self.velocity.linear.x = 0.0
             self.velocity.angular.z = 0.0
