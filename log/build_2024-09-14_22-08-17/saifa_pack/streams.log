@@ -1,0 +1,46 @@
+[0.042s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/saifa_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/saifa_pack -- -j8 -l8
+[0.168s] [100%] Built target cpp_node_test
+[0.170s] [100%] Built target ament_cmake_python_copy_saifa_pack
+[0.813s] running egg_info
+[0.815s] writing saifa_pack.egg-info/PKG-INFO
+[0.815s] writing dependency_links to saifa_pack.egg-info/dependency_links.txt
+[0.815s] writing top-level names to saifa_pack.egg-info/top_level.txt
+[0.821s] reading manifest file 'saifa_pack.egg-info/SOURCES.txt'
+[0.821s] writing manifest file 'saifa_pack.egg-info/SOURCES.txt'
+[0.876s] [100%] Built target ament_cmake_python_build_saifa_pack_egg
+[0.893s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/saifa_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/saifa_pack -- -j8 -l8
+[0.947s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/saifa_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/saifa_pack
+[0.963s] -- Install configuration: ""
+[0.963s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/pythonpath.sh
+[0.963s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/pythonpath.dsv
+[0.963s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info
+[0.963s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.964s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.964s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/PKG-INFO
+[0.964s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/top_level.txt
+[0.964s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack
+[0.964s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack/__init__.py
+[0.964s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack/dummy_module.py
+[1.041s] Listing '/home/nakarin/RoboticsDevExam2/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack'...
+[1.047s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/lib/saifa_pack/dummy_script.py
+[1.047s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/lib/saifa_pack/teleop_turtle.py
+[1.049s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/lib/saifa_pack/teleop_controller.py
+[1.049s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/lib/saifa_pack/cpp_node_test
+[1.049s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/launch
+[1.049s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/launch/turtle_1.launch.py
+[1.049s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/ament_index/resource_index/package_run_dependencies/saifa_pack
+[1.049s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/ament_index/resource_index/parent_prefix_path/saifa_pack
+[1.050s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/ament_prefix_path.sh
+[1.050s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/ament_prefix_path.dsv
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/path.sh
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/environment/path.dsv
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/local_setup.bash
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/local_setup.sh
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/local_setup.zsh
+[1.051s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/local_setup.dsv
+[1.051s] -- Installing: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/package.dsv
+[1.052s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/ament_index/resource_index/packages/saifa_pack
+[1.052s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/cmake/saifa_packConfig.cmake
+[1.052s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/cmake/saifa_packConfig-version.cmake
+[1.052s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/saifa_pack/share/saifa_pack/package.xml
+[1.069s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/saifa_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/saifa_pack

@@ -32,10 +32,10 @@ class teleop_controller(Node):
     def __init__(self):
         super().__init__('teleop_controller')
 
-        self.declare_parameter('kp',4.0)
+        self.declare_parameter('kp',6.0)
         self.kp = self.get_parameter('kp').get_parameter_value().double_value
 
-        self.declare_parameter('ki',5.0)
+        self.declare_parameter('ki',10.0)
         self.kp_a = self.get_parameter('ki').get_parameter_value().double_value
         
         self.cmd_vel_pub = self.create_publisher(Twist,'cmd_vel',10) 
@@ -51,7 +51,6 @@ class teleop_controller(Node):
         self.create_subscription(Pose,'pose',self.pose_callback,10)
 
         self.task_completed_event = threading.Event()
-
 
         self.srv_controll_parameter = self.create_service(SetParam,'Set_Param',self.set_Param)
         self.x = []
@@ -138,7 +137,7 @@ class teleop_controller(Node):
             vx = self.kp * d
             w = self.kp_a * e
 
-            if d <= 0.2 and angular_error < 1.0 :
+            if d <= 0.1 and angular_error < 0.2 :
                 self.eat_pizza()
                 self.eat_state = 0
                 # self.e_count += 1

@@ -29,6 +29,7 @@ ament_python_install_package(${PROJECT_NAME})
 install(PROGRAMS
   scripts/dummy_script.py
   scripts/pizza_viapoint_script.py
+  scripts/start_copy_script.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
