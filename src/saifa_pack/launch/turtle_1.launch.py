@@ -51,5 +51,16 @@ def generate_launch_description():
 
     launch_des.add_action(tele_control_turtlesim)
 
+    pizza_via = Node(
+    package='sun_pkg',
+    namespace='',
+    executable='pizza_viapoint_script.py',
+    name = "pizza"
+    )
+
+    launch_des.add_action(pizza_via)
+
 
     return launch_des
+
+
