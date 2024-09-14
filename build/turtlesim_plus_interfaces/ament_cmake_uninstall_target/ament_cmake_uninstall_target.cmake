@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces")
+  set(install_space "/home/nakarin/RoboticsDevExam2/install/turtlesim_plus_interfaces")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/install_manifest.txt")
+set(install_manifest "/home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

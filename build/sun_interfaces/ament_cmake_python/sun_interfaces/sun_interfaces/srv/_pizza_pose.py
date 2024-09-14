@@ -5,6 +5,10 @@
 
 # Import statements for member types
 
+# Member 'x'
+# Member 'y'
+import array  # noqa: E402, I100
+
 import builtins  # noqa: E402, I100
 
 import math  # noqa: E402, I100
@@ -63,14 +67,14 @@ class PizzaPose_Request(metaclass=Metaclass_PizzaPose_Request):
     ]
 
     _fields_and_field_types = {
-        'x': 'float',
-        'y': 'float',
+        'x': 'sequence<float>',
+        'y': 'sequence<float>',
         'number': 'int32',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('float')),  # noqa: E501
+        rosidl_parser.definition.UnboundedSequence(rosidl_parser.definition.BasicType('float')),  # noqa: E501
         rosidl_parser.definition.BasicType('int32'),  # noqa: E501
     )
 
@@ -78,8 +82,8 @@ class PizzaPose_Request(metaclass=Metaclass_PizzaPose_Request):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.x = kwargs.get('x', float())
-        self.y = kwargs.get('y', float())
+        self.x = array.array('f', kwargs.get('x', []))
+        self.y = array.array('f', kwargs.get('y', []))
         self.number = kwargs.get('number', int())
 
     def __repr__(self):
@@ -131,13 +135,26 @@ class PizzaPose_Request(metaclass=Metaclass_PizzaPose_Request):
 
     @x.setter
     def x(self, value):
+        if isinstance(value, array.array):
+            assert value.typecode == 'f', \
+                "The 'x' array.array() must have the type code of 'f'"
+            self._x = value
+            return
         if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
             assert \
-                isinstance(value, float), \
-                "The 'x' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'x' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._x = value
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, float) for v in value) and
+                 all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
+                "The 'x' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
+        self._x = array.array('f', value)
 
     @builtins.property
     def y(self):
@@ -146,13 +163,26 @@ class PizzaPose_Request(metaclass=Metaclass_PizzaPose_Request):
 
     @y.setter
     def y(self, value):
+        if isinstance(value, array.array):
+            assert value.typecode == 'f', \
+                "The 'y' array.array() must have the type code of 'f'"
+            self._y = value
+            return
         if __debug__:
+            from collections.abc import Sequence
+            from collections.abc import Set
+            from collections import UserList
+            from collections import UserString
             assert \
-                isinstance(value, float), \
-                "The 'y' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'y' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
-        self._y = value
+                ((isinstance(value, Sequence) or
+                  isinstance(value, Set) or
+                  isinstance(value, UserList)) and
+                 not isinstance(value, str) and
+                 not isinstance(value, UserString) and
+                 all(isinstance(v, float) for v in value) and
+                 all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
+                "The 'y' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
+        self._y = array.array('f', value)
 
     @builtins.property
     def number(self):

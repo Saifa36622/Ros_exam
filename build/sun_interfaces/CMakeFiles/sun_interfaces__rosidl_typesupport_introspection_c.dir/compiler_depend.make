@@ -65,6 +65,8 @@ CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesup
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
   /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/service_introspection.h
 
 
@@ -81,6 +83,8 @@ CMakeFiles/sun_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesup
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
@@ -185,6 +189,8 @@ rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h:
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
