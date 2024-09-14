@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:70 (file):
-  file INSTALL cannot find
-  "/home/nakarin/RoboticsDevExam2/src/saifa_pack/scripts/teleop_set_params_script.py":
-  No such file or directory.
-
-[0m
