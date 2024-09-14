@@ -10,6 +10,7 @@ from sun_interfaces.srv import PizzaPose
 from turtlesim_plus_interfaces.srv import GivePosition
 from rcl_interfaces.msg import SetParametersResult
 from std_srvs.srv import Trigger
+from turtlesim.msg import Pose
 
 class PizzaViapointNode(Node):
     def __init__(self):
@@ -18,12 +19,15 @@ class PizzaViapointNode(Node):
         # Declare parameters
         self.declare_parameter('max_pizza', 20)
         self.declare_parameter('name', 't_name')
-        
+        self.name = self.get_parameter('name').get_parameter_value().string_value
         self.max_pizza = self.get_parameter('max_pizza').get_parameter_value().integer_value
+        
+        # Create the subscriber
+        self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos, 10)
         
         # Create the service server
         self.clear_pizza_server = self.create_service(Trigger, 'clear_pizza', self.clear_pizza_callback)
-        self.ready_to_spawn_pizza = self.create_service(GivePosition, 'ready_to_spawn_pizza', self.spawn_pizza_request)
+        self.ready_to_spawn_pizza = self.create_service(Trigger, 'ready_to_spawn_pizza', self.spawn_pizza_request)
         self.save_pizza_server = self.create_service(Trigger, 'save_pizza', self.save_pizza_callback)
         self.get_logger().info('Service server ready to receive pizza position.')
 
@@ -44,38 +48,46 @@ class PizzaViapointNode(Node):
         self.count_pizza = 0
         self.keep_pose = []
         self.update_number = 0
-        
+        self.turtle_position = [0, 0]
+           
         # Add a callback to dynamically update parameters
         self.add_on_set_parameters_callback(self.on_parameter_update)
-    
+        
+    def turtle_pos(self,msg):
+        self.turtle_position[0] = msg.x
+        self.turtle_position[1] = msg.y
+        
     def clear_pizza_callback(self, request, response):
         
-        temp_x = []
-        temp_y = []
-        
-        for i in range (len(self.keep_pose)):
-            temp_x.append(self.keep_pose[i][0])
-            temp_y.append(self.keep_pose[i][1])
+        if self.count_pizza > 0 :
+            temp_x = []
+            temp_y = []
             
-        clear_to_controller = PizzaPose.Request()
-        clear_to_controller.x = temp_x
-        clear_to_controller.y = temp_y
-        clear_to_controller.number = 0
-        
-        self.clear_pizza_to_controller.call_async(clear_to_controller)
-        self.get_logger().info("Start clear pizza")
-        self.keep_pose = []
-        self.count_pizza = 0
-        
-        return response
+            for i in range (len(self.keep_pose)):
+                temp_x.append(self.keep_pose[i][0])
+                temp_y.append(self.keep_pose[i][1])
+                
+            clear_to_controller = PizzaPose.Request()
+            clear_to_controller.x = temp_x
+            clear_to_controller.y = temp_y
+            clear_to_controller.number = 0
+            
+            self.clear_pizza_to_controller.call_async(clear_to_controller)
+            self.get_logger().info("Start clear pizza")
+            self.keep_pose = []
+            self.count_pizza = 0
+            
+            return response
+        else :
+            self.get_logger().info("Don't have pizza on the floor")
     
     def spawn_pizza_request(self, request, response):
         
         if self.count_pizza < self.max_pizza:
             self.count_pizza += 1
             position_request = GivePosition.Request()
-            position_request.x = request.x
-            position_request.y = request.y
+            position_request.x = self.turtle_position[0]
+            position_request.y = self.turtle_position[1]
             self.keep_pose.append([position_request.x, position_request.y])
             self.spawn_pizza_client.call_async(position_request)
             self.get_logger().info(f'Pizza spawn: {self.count_pizza} pcs')
@@ -83,7 +95,6 @@ class PizzaViapointNode(Node):
         else :
             self.get_logger().warning(f'Just spawn pizza only {self.max_pizza} mother fucker')
             return response
-        
     
     def save_pizza_callback(self, request, response):
         

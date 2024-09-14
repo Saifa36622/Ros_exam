@@ -33,7 +33,7 @@ class TeleopTurtle(Node):
         self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos, 10)
         
         self.clear_pizza_client = self.create_client(Trigger, 'clear_pizza')
-        self.ready_to_spawn_pizza = self.create_client(GivePosition, 'ready_to_spawn_pizza')
+        self.ready_to_spawn_pizza = self.create_client(Trigger, 'ready_to_spawn_pizza')
         self.save_pizza_client = self.create_client(Trigger, 'save_pizza')
         self.eatable_pizza_client = self.create_client(PizzaPose, 'eatable_pizza')
         
@@ -70,9 +70,7 @@ class TeleopTurtle(Node):
             self.exit_flag = True
             return
         elif key == 'r':
-            position_request = GivePosition.Request()
-            position_request.x = self.turtle_position[0]
-            position_request.y = self.turtle_position[1]
+            position_request = Trigger.Request()
             self.ready_to_spawn_pizza.call_async(position_request)
                 
         elif key == 'u':

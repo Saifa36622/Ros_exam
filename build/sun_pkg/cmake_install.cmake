@@ -70,6 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/sun_pkg" TYPE PROGRAM FILES
     "/home/nakarin/RoboticsDevExam2/src/sun_pkg/scripts/dummy_script.py"
     "/home/nakarin/RoboticsDevExam2/src/sun_pkg/scripts/pizza_viapoint_script.py"
+    "/home/nakarin/RoboticsDevExam2/src/sun_pkg/scripts/start_copy_script.py"
     )
 endif()
 

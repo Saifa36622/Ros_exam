@@ -8,6 +8,7 @@
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg/dummy_module.py
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/dummy_script.py
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/pizza_viapoint_script.py
+/home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/start_copy_script.py
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/cpp_node_test
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/ament_index/resource_index/package_run_dependencies/sun_pkg
 /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/ament_index/resource_index/parent_prefix_path/sun_pkg
