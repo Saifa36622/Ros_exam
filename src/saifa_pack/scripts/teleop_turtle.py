@@ -36,14 +36,15 @@ class TeleopTurtle(Node):
         self.ready_to_spawn_pizza = self.create_client(Trigger, 'ready_to_spawn_pizza')
         self.save_pizza_client = self.create_client(Trigger, 'save_pizza')
         self.eatable_pizza_client = self.create_client(PizzaPose, 'eatable_pizza')
+        self.finish_auto_server = self.create_service(Trigger, 'finish_auto', self.finish_auto_callback)
         
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.velocity = Twist()
         self.exit_flag = False
-        # self.spawn_pizza_client = self.create_client(GivePosition,'/spawn_pizza')
         self.turtle_position = [0,0]
         self.save_times = 0
         self.count_pizza = 0
+        self.is_auto = 0
         
     def turtle_pos(self,msg):
         self.turtle_position[0] = msg.x
@@ -51,45 +52,50 @@ class TeleopTurtle(Node):
 
     def timer_callback(self):
         key = getKey()
-        if key == 'w':
-            self.velocity.linear.x = 2.0
-            self.velocity.angular.z = 0.0
-        elif key == 's':
-            self.velocity.linear.x = -2.0
-            self.velocity.angular.z = 0.0
-        elif key == 'a':
-            self.velocity.linear.x = 0.0
-            self.velocity.angular.z = 2.0
-        elif key == 'd':
-            self.velocity.linear.x = 0.0
-            self.velocity.angular.z = -2.0
-        elif key == 'q':
+        if key == 'q':
             self.exit_flag = True
             return
         elif key == '\x03':  # Ctrl+C to exit
             self.exit_flag = True
             return
-        elif key == 'r':
-            position_request = Trigger.Request()
-            self.ready_to_spawn_pizza.call_async(position_request)
+        
+        if self.is_auto == 0:
+            if key == 'w':
+                self.velocity.linear.x = 2.0
+                self.velocity.angular.z = 0.0
+            elif key == 's':
+                self.velocity.linear.x = -2.0
+                self.velocity.angular.z = 0.0
+            elif key == 'a':
+                self.velocity.linear.x = 0.0
+                self.velocity.angular.z = 2.0
+            elif key == 'd':
+                self.velocity.linear.x = 0.0
+                self.velocity.angular.z = -2.0
+                return
+            elif key == 'r':
+                position_request = Trigger.Request()
+                self.ready_to_spawn_pizza.call_async(position_request)
+                    
+            elif key == 'u':
+                # write to yaml
+                self.save_pizza_request()
+                    
+            elif key == 'c':
+                # eat all of the keep pose -> send keep pose to teleop controller 
+                request = Trigger.Request()
+                self.clear_pizza_client.call_async(request)
+                self.get_logger().info("Clear pizza")
+                self.is_auto = 1
                 
-        elif key == 'u':
-            # write to yaml
-            self.save_pizza_request()
+            elif key == 'e':
+                self.velocity.linear.x = 0.0
+                self.velocity.angular.z = 0.0
                 
-        elif key == 'c':
-            # eat all of the keep pose -> send keep pose to teleop controller 
-            request = Trigger.Request()
-            self.clear_pizza_client.call_async(request)
-            self.get_logger().info("Clear pizza")
-            
-        elif key == 'e':
-            self.velocity.linear.x = 0.0
-            self.velocity.angular.z = 0.0
-
-
-        # Publish the velocity
-        self.publisher.publish(self.velocity)
+            # Publish the velocity
+            self.publisher.publish(self.velocity)
+        else :
+            self.get_logger().warning('In auto mode can not press any key')
               
     def eatable_pizza_request(self, x, y):
         # Wait for the service to be available
@@ -123,6 +129,10 @@ class TeleopTurtle(Node):
         
         # Call the service
         self.save_pizza_client.call_async(request)
+    
+    def finish_auto_callback(self, request, response):
+        self.is_auto = 0
+        return response
 
 def main(args=None):
   

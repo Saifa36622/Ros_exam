@@ -7,8 +7,6 @@ def generate_launch_description():
 
     launch_des = LaunchDescription()
 
-    
-    # tele = "Teleop"
     turtlesim = Node(
     package='turtlesim_plus',
     namespace="",
