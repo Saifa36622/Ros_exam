@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/controller_interfaces
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/controller_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/controller_interfaces
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/controller_interfaces
 
 # Utility rule file for controller_interfaces__cpp.
 
@@ -154,8 +154,8 @@ rosidl_generator_cpp/controller_interfaces/srv/set_param.hpp: /opt/ros/humble/sh
 rosidl_generator_cpp/controller_interfaces/srv/set_param.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
 rosidl_generator_cpp/controller_interfaces/srv/set_param.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/controller_interfaces/srv/set_param.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saifa/Desktop/Ros_exam/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nakarin/RoboticsDevExam2/build/controller_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/controller_interfaces/srv/detail/set_param__builder.hpp: rosidl_generator_cpp/controller_interfaces/srv/set_param.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/controller_interfaces/srv/detail/set_param__builder.hpp
@@ -199,6 +199,6 @@ CMakeFiles/controller_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/controller_interfaces__cpp.dir/clean
 
 CMakeFiles/controller_interfaces__cpp.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/controller_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/controller_interfaces /home/saifa/Desktop/Ros_exam/src/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces/CMakeFiles/controller_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/controller_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/controller_interfaces /home/nakarin/RoboticsDevExam2/src/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces/CMakeFiles/controller_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_interfaces__cpp.dir/depend
 

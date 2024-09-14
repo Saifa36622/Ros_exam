@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_interfaces
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_interfaces
 
 # Utility rule file for sun_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/sun_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/sun_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/sun_interfaces_uninstall:
-	/usr/bin/cmake -P /home/saifa/Desktop/Ros_exam/build/sun_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nakarin/RoboticsDevExam2/build/sun_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 sun_interfaces_uninstall: CMakeFiles/sun_interfaces_uninstall
 sun_interfaces_uninstall: CMakeFiles/sun_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/sun_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/sun_interfaces_uninstall.dir/clean
 
 CMakeFiles/sun_interfaces_uninstall.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/CMakeFiles/sun_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/CMakeFiles/sun_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sun_interfaces_uninstall.dir/depend
 

@@ -22,11 +22,13 @@ class PizzaViapointNode(Node):
         self.max_pizza = self.get_parameter('max_pizza').get_parameter_value().integer_value
         
         # Create the service server
+        self.clear_pizza_server = self.create_service(Trigger, 'save_pizza', self.clear_pizza_callback)
         self.ready_to_spawn_pizza = self.create_service(GivePosition, 'ready_to_spawn_pizza', self.spawn_pizza_request)
         self.save_pizza_server = self.create_service(Trigger, 'save_pizza', self.save_pizza_callback)
         self.get_logger().info('Service server ready to receive pizza position.')
 
         # Create the service client
+        self.clear_pizza_to_controller = self.create_client(PizzaPose, 'eatable_pizza')
         self.spawn_pizza_client = self.create_client(GivePosition, 'spawn_pizza')
         
         # Set path of .yaml file
@@ -45,6 +47,23 @@ class PizzaViapointNode(Node):
         
         # Add a callback to dynamically update parameters
         self.add_on_set_parameters_callback(self.on_parameter_update)
+    
+    def clear_pizza_callback(self, request, response):
+        
+        temp_x = []
+        temp_y = []
+        
+        for i in range (len(self.keep_pose)):
+            temp_x.append(self.keep_pose[i][0])
+            temp_y.append(self.keep_pose[i][1])
+            
+        clear_to_controller = PizzaPose.Request()
+        clear_to_controller.x = temp_x
+        clear_to_controller.y = temp_y
+        clear_to_controller.number = 0
+        
+        self.clear_pizza_to_controller.call_async(clear_to_controller)
+        return response
     
     def spawn_pizza_request(self, request, response):
         
@@ -79,6 +98,7 @@ class PizzaViapointNode(Node):
             # Save data to .yaml
             self.get_logger().info(f"Completed to save data to .yaml file")
             
+            self.count_pizza = 0
             self.keep_pose = []
             
             return response

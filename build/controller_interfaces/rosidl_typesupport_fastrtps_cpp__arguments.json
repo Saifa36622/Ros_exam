@@ -1,10 +1,10 @@
 {
   "package_name": "controller_interfaces",
-  "output_dir": "/home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_typesupport_fastrtps_cpp/controller_interfaces",
+  "output_dir": "/home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_typesupport_fastrtps_cpp/controller_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetParam.idl",
-    "/home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetTarget.idl"
+    "/home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetParam.idl",
+    "/home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_adapter/controller_interfaces:srv/SetTarget.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -79,8 +79,8 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetParam.idl",
-    "/home/saifa/Desktop/Ros_exam/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetTarget.idl",
+    "/home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetParam.idl",
+    "/home/nakarin/RoboticsDevExam2/build/controller_interfaces/rosidl_adapter/controller_interfaces/srv/SetTarget.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",

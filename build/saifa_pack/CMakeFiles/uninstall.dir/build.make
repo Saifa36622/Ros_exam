@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/saifa_pack
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/saifa_pack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/saifa_pack
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/saifa_pack
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

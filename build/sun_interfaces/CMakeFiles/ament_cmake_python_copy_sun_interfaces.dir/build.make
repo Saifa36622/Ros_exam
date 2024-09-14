@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_interfaces
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_interfaces
 
 # Utility rule file for ament_cmake_python_copy_sun_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/compiler_depend.ma
 include CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_sun_interfaces:
-	/usr/bin/cmake -E copy_directory /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_py/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/ament_cmake_python/sun_interfaces/sun_interfaces
+	/usr/bin/cmake -E copy_directory /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_py/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/ament_cmake_python/sun_interfaces/sun_interfaces
 
 ament_cmake_python_copy_sun_interfaces: CMakeFiles/ament_cmake_python_copy_sun_interfaces
 ament_cmake_python_copy_sun_interfaces: CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_sun_interfaces.dir/depend
 

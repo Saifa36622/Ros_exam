@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_pkg
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_pkg
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_pkg
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/sun_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_pkg /home/saifa/Desktop/Ros_exam/src/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg /home/saifa/Desktop/Ros_exam/build/sun_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/sun_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_pkg /home/nakarin/RoboticsDevExam2/src/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg /home/nakarin/RoboticsDevExam2/build/sun_pkg/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 
