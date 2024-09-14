@@ -386,7 +386,15 @@ bool sun_interfaces__srv__pizza_pose__response__convert_from_py(PyObject * _pyms
     assert(strncmp("sun_interfaces.srv._pizza_pose.PizzaPose_Response", full_classname_dest, 49) == 0);
   }
   sun_interfaces__srv__PizzaPose_Response * ros_message = _ros_message;
-  ros_message->structure_needs_at_least_one_member = 0;
+  {  // isfinish
+    PyObject * field = PyObject_GetAttrString(_pymsg, "isfinish");
+    if (!field) {
+      return false;
+    }
+    assert(PyLong_Check(field));
+    ros_message->isfinish = (int32_t)PyLong_AsLong(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -408,7 +416,18 @@ PyObject * sun_interfaces__srv__pizza_pose__response__convert_to_py(void * raw_r
       return NULL;
     }
   }
-  (void)raw_ros_message;
+  sun_interfaces__srv__PizzaPose_Response * ros_message = (sun_interfaces__srv__PizzaPose_Response *)raw_ros_message;
+  {  // isfinish
+    PyObject * field = NULL;
+    field = PyLong_FromLong(ros_message->isfinish);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "isfinish", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
 
   // ownership of _pymessage is transferred to the caller
   return _pymessage;

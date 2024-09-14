@@ -1,0 +1,463 @@
+[0.079s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.079s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x72beef112dd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72beef112980>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72beef112980>>)
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.199s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/saifa/Desktop/Ros_exam'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/pizza_pose) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/saifa_pack) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/saifa_pack' with type 'ros.ament_cmake' and name 'saifa_pack'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_interfaces) by extension 'ros'
+[0.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sun_interfaces' with type 'ros.ament_cmake' and name 'sun_interfaces'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/sun_pkg) by extension 'ros'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sun_pkg' with type 'ros.ament_cmake' and name 'sun_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus' with type 'ros.ament_cmake' and name 'turtlesim_plus'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim_plus/turtlesim_plus_interfaces) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim_plus/turtlesim_plus_interfaces' with type 'ros.ament_cmake' and name 'turtlesim_plus_interfaces'
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.230s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.230s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/saifa/Desktop/Ros_exam/install/sun_pkg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.231s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/saifa/Desktop/Ros_exam/install/saifa_pack' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.232s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/saifa/Desktop/Ros_exam/install/sun_pkg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/saifa/Desktop/Ros_exam/install/saifa_pack' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/saifa/Desktop/Ros_exam/install
+[0.232s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/saifa/install
+[0.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 30 installed packages in /home/saifa/Desktop/ros2_w2_ws/install
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'saifa_pack' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'saifa_pack' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifa/Desktop/Ros_exam/build/saifa_pack', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifa/Desktop/Ros_exam/install/saifa_pack', 'merge_install': False, 'path': '/home/saifa/Desktop/Ros_exam/src/saifa_pack', 'symlink_install': False, 'test_result_base': None}
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'sun_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifa/Desktop/Ros_exam/build/sun_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifa/Desktop/Ros_exam/install/sun_interfaces', 'merge_install': False, 'path': '/home/saifa/Desktop/Ros_exam/src/sun_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'sun_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'sun_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifa/Desktop/Ros_exam/build/sun_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifa/Desktop/Ros_exam/install/sun_pkg', 'merge_install': False, 'path': '/home/saifa/Desktop/Ros_exam/src/sun_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus', 'merge_install': False, 'path': '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_plus_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_plus_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces', 'merge_install': False, 'path': '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.273s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.274s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.274s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifa/Desktop/Ros_exam/src/saifa_pack' with build type 'ament_cmake'
+[0.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifa/Desktop/Ros_exam/src/saifa_pack'
+[0.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifa/Desktop/Ros_exam/src/sun_interfaces' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifa/Desktop/Ros_exam/src/sun_interfaces'
+[0.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.285s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifa/Desktop/Ros_exam/src/sun_pkg' with build type 'ament_cmake'
+[0.285s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifa/Desktop/Ros_exam/src/sun_pkg'
+[0.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.289s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus' with build type 'ament_cmake'
+[0.289s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus'
+[0.289s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.289s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.293s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces' with build type 'ament_cmake'
+[0.293s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/saifa_pack -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/saifa_pack
+[0.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/sun_interfaces -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/sun_interfaces
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/sun_pkg -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/sun_pkg
+[0.306s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/turtlesim_plus
+[0.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces
+[1.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/saifa_pack -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/saifa_pack
+[1.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/saifa_pack -- -j16 -l16
+[1.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/turtlesim_plus
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/turtlesim_plus -- -j16 -l16
+[1.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/sun_pkg -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/sun_pkg
+[1.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_pkg -- -j16 -l16
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/sun_interfaces -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/sun_interfaces
+[1.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_interfaces -- -j16 -l16
+[1.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/turtlesim_plus -- -j16 -l16
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/turtlesim_plus
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces -DCMAKE_INSTALL_PREFIX=/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces
+[1.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces -- -j16 -l16
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_pkg -- -j16 -l16
+[2.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/saifa_pack -- -j16 -l16
+[2.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[2.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/turtlesim_plus
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' for CMake module files
+[2.045s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' for CMake config files
+[2.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/bin'
+[2.048s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib/python3.10/site-packages'
+[2.049s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/bin'
+[2.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[2.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[2.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[2.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[2.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_pkg
+[2.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/saifa_pack
+[2.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus)
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' for CMake module files
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus' for CMake config files
+[2.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus', 'cmake_prefix_path')
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/hook/cmake_prefix_path.sh'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/bin'
+[2.081s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib/pkgconfig/turtlesim_plus.pc'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/lib/python3.10/site-packages'
+[2.082s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/bin'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.sh'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.bash'
+[2.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/turtlesim_plus/package.zsh'
+[2.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/turtlesim_plus/share/colcon-core/packages/turtlesim_plus)
+[2.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sun_pkg)
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg' for CMake module files
+[2.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_pkg
+[2.108s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg' for CMake config files
+[2.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_pkg', 'cmake_prefix_path')
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.ps1'
+[2.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.sh'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/bin'
+[2.110s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib/pkgconfig/sun_pkg.pc'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib/python3.10/site-packages'
+[2.111s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/bin'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.ps1'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.dsv'
+[2.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.sh'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.bash'
+[2.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.zsh'
+[2.113s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/colcon-core/packages/sun_pkg)
+[2.136s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saifa_pack)
+[2.137s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack' for CMake module files
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/saifa_pack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/saifa_pack
+[2.138s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack' for CMake config files
+[2.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('saifa_pack', 'cmake_prefix_path')
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.ps1'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.dsv'
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.sh'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/bin'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/pkgconfig/saifa_pack.pc'
+[2.140s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/python3.10/site-packages'
+[2.141s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/bin'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.dsv'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.sh'
+[2.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.bash'
+[2.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.zsh'
+[2.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/colcon-core/packages/saifa_pack)
+[2.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sun_pkg)
+[2.145s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg' for CMake module files
+[2.146s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg' for CMake config files
+[2.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_pkg', 'cmake_prefix_path')
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.ps1'
+[2.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.dsv'
+[2.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/hook/cmake_prefix_path.sh'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/bin'
+[2.148s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib/pkgconfig/sun_pkg.pc'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/lib/python3.10/site-packages'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_pkg/bin'
+[2.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.ps1'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.dsv'
+[2.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.sh'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.bash'
+[2.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/sun_pkg/package.zsh'
+[2.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/sun_pkg/share/colcon-core/packages/sun_pkg)
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saifa_pack)
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack' for CMake module files
+[2.180s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack' for CMake config files
+[2.180s] Level 1:colcon.colcon_core.shell:create_environment_hook('saifa_pack', 'cmake_prefix_path')
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.dsv'
+[2.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/hook/cmake_prefix_path.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/pkgconfig/saifa_pack.pc'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/python3.10/site-packages'
+[2.183s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/saifa_pack/bin'
+[2.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.ps1'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.dsv'
+[2.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.sh'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.bash'
+[2.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.zsh'
+[2.185s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/saifa_pack/share/colcon-core/packages/saifa_pack)
+[4.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/sun_interfaces -- -j16 -l16
+[4.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+[4.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sun_interfaces)
+[4.152s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' for CMake module files
+[4.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/sun_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/sun_interfaces
+[4.153s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' for CMake config files
+[4.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_interfaces', 'cmake_prefix_path')
+[4.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.ps1'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.dsv'
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.sh'
+[4.154s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib'
+[4.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_interfaces', 'ld_library_path_lib')
+[4.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.ps1'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.dsv'
+[4.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.sh'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/bin'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/pkgconfig/sun_interfaces.pc'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/python3.10/site-packages'
+[4.155s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/bin'
+[4.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.ps1'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.dsv'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.sh'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.bash'
+[4.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.zsh'
+[4.157s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/colcon-core/packages/sun_interfaces)
+[4.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sun_interfaces)
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' for CMake module files
+[4.225s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces' for CMake config files
+[4.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_interfaces', 'cmake_prefix_path')
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.ps1'
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.dsv'
+[4.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/cmake_prefix_path.sh'
+[4.227s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib'
+[4.227s] Level 1:colcon.colcon_core.shell:create_environment_hook('sun_interfaces', 'ld_library_path_lib')
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.ps1'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.dsv'
+[4.227s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/hook/ld_library_path_lib.sh'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/bin'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/pkgconfig/sun_interfaces.pc'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/lib/python3.10/site-packages'
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/bin'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.ps1'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.dsv'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.sh'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.bash'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/sun_interfaces/package.zsh'
+[4.230s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/sun_interfaces/share/colcon-core/packages/sun_interfaces)
+[5.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces -- -j16 -l16
+[5.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces
+[5.279s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[5.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saifa/Desktop/ros2_w2_ws/install/launch_testing_examples:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_pointcloud_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_subscriber:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_service:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_publisher:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_server:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_minimal_action_client:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_guard_conditions:/home/saifa/Desktop/ros2_w2_ws/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' for CMake module files
+[5.280s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' for CMake config files
+[5.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[5.282s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib'
+[5.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[5.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[5.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[5.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[5.282s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/bin'
+[5.282s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[5.283s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[5.283s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/bin'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[5.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[5.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[5.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[5.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[5.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_plus_interfaces)
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' for CMake module files
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces' for CMake config files
+[5.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'cmake_prefix_path')
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.ps1'
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.dsv'
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/cmake_prefix_path.sh'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib'
+[5.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_plus_interfaces', 'ld_library_path_lib')
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.ps1'
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.dsv'
+[5.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/hook/ld_library_path_lib.sh'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/bin'
+[5.425s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib/pkgconfig/turtlesim_plus_interfaces.pc'
+[5.425s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/lib/python3.10/site-packages'
+[5.425s] Level 1:colcon.colcon_core.environment:checking '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/bin'
+[5.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.ps1'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.dsv'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.sh'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.bash'
+[5.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/turtlesim_plus_interfaces/package.zsh'
+[5.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/saifa/Desktop/Ros_exam/install/turtlesim_plus_interfaces/share/colcon-core/packages/turtlesim_plus_interfaces)
+[5.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.427s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.427s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.432s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.432s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.440s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.440s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifa/Desktop/Ros_exam/install/local_setup.ps1'
+[5.441s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saifa/Desktop/Ros_exam/install/_local_setup_util_ps1.py'
+[5.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifa/Desktop/Ros_exam/install/setup.ps1'
+[5.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifa/Desktop/Ros_exam/install/local_setup.sh'
+[5.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/saifa/Desktop/Ros_exam/install/_local_setup_util_sh.py'
+[5.444s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifa/Desktop/Ros_exam/install/setup.sh'
+[5.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifa/Desktop/Ros_exam/install/local_setup.bash'
+[5.446s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifa/Desktop/Ros_exam/install/setup.bash'
+[5.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/saifa/Desktop/Ros_exam/install/local_setup.zsh'
+[5.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/saifa/Desktop/Ros_exam/install/setup.zsh'

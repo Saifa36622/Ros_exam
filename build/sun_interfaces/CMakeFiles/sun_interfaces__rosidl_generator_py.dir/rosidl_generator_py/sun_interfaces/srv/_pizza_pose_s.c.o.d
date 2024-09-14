@@ -1,5 +1,5 @@
 CMakeFiles/sun_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sun_interfaces/srv/_pizza_pose_s.c.o: \
- /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_py/sun_interfaces/srv/_pizza_pose_s.c \
+ /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_py/sun_interfaces/srv/_pizza_pose_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,8 +207,8 @@ CMakeFiles/sun_interfaces__rosidl_generator_py.dir/rosidl_generator_py/sun_inter
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__struct.h \
+ /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h \
- /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_c/sun_interfaces/srv/detail/pizza_pose__functions.h \
+ /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_c/sun_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h

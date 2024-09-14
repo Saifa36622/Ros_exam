@@ -176,7 +176,7 @@ struct PizzaPose_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->structure_needs_at_least_one_member = 0;
+      this->isfinish = 0l;
     }
   }
 
@@ -186,15 +186,22 @@ struct PizzaPose_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->structure_needs_at_least_one_member = 0;
+      this->isfinish = 0l;
     }
   }
 
   // field types and members
-  using _structure_needs_at_least_one_member_type =
-    uint8_t;
-  _structure_needs_at_least_one_member_type structure_needs_at_least_one_member;
+  using _isfinish_type =
+    int32_t;
+  _isfinish_type isfinish;
 
+  // setters for named parameter idiom
+  Type & set__isfinish(
+    const int32_t & _arg)
+  {
+    this->isfinish = _arg;
+    return *this;
+  }
 
   // constant declarations
 
@@ -238,7 +245,7 @@ struct PizzaPose_Response_
   // comparison operators
   bool operator==(const PizzaPose_Response_ & other) const
   {
-    if (this->structure_needs_at_least_one_member != other.structure_needs_at_least_one_member) {
+    if (this->isfinish != other.isfinish) {
       return false;
     }
     return true;

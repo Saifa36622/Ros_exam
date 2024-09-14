@@ -192,17 +192,28 @@ inline void to_flow_style_yaml(
   const PizzaPose_Response & msg,
   std::ostream & out)
 {
-  (void)msg;
-  out << "null";
+  out << "{";
+  // member: isfinish
+  {
+    out << "isfinish: ";
+    rosidl_generator_traits::value_to_yaml(msg.isfinish, out);
+  }
+  out << "}";
 }  // NOLINT(readability/fn_size)
 
 inline void to_block_style_yaml(
   const PizzaPose_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  (void)msg;
-  (void)indentation;
-  out << "null\n";
+  // member: isfinish
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "isfinish: ";
+    rosidl_generator_traits::value_to_yaml(msg.isfinish, out);
+    out << "\n";
+  }
 }  // NOLINT(readability/fn_size)
 
 inline std::string to_yaml(const PizzaPose_Response & msg, bool use_flow_style = false)

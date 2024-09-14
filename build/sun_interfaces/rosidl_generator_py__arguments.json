@@ -1,9 +1,9 @@
 {
   "package_name": "sun_interfaces",
-  "output_dir": "/home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_py/sun_interfaces",
+  "output_dir": "/home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_py/sun_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_adapter/sun_interfaces:srv/PizzaPose.idl"
+    "/home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_adapter/sun_interfaces:srv/PizzaPose.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_adapter/sun_interfaces/srv/PizzaPose.idl"
+    "/home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_adapter/sun_interfaces/srv/PizzaPose.idl"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "package_name": "sun_interfaces",
   "non_idl_tuples": [
-    "/home/nakarin/RoboticsDevExam2/src/sun_interfaces:srv/PizzaPose.srv"
+    "/home/saifa/Desktop/Ros_exam/src/sun_interfaces:srv/PizzaPose.srv"
   ]
 }

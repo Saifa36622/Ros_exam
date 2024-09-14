@@ -47,7 +47,7 @@ typedef struct sun_interfaces__srv__PizzaPose_Request__Sequence
 /// Struct defined in srv/PizzaPose in the package sun_interfaces.
 typedef struct sun_interfaces__srv__PizzaPose_Response
 {
-  uint8_t structure_needs_at_least_one_member;
+  int32_t isfinish;
 } sun_interfaces__srv__PizzaPose_Response;
 
 // Struct for a sequence of sun_interfaces__srv__PizzaPose_Response.

@@ -284,7 +284,7 @@ sun_interfaces__srv__PizzaPose_Response__init(sun_interfaces__srv__PizzaPose_Res
   if (!msg) {
     return false;
   }
-  // structure_needs_at_least_one_member
+  // isfinish
   return true;
 }
 
@@ -294,7 +294,7 @@ sun_interfaces__srv__PizzaPose_Response__fini(sun_interfaces__srv__PizzaPose_Res
   if (!msg) {
     return;
   }
-  // structure_needs_at_least_one_member
+  // isfinish
 }
 
 bool
@@ -303,8 +303,8 @@ sun_interfaces__srv__PizzaPose_Response__are_equal(const sun_interfaces__srv__Pi
   if (!lhs || !rhs) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  if (lhs->structure_needs_at_least_one_member != rhs->structure_needs_at_least_one_member) {
+  // isfinish
+  if (lhs->isfinish != rhs->isfinish) {
     return false;
   }
   return true;
@@ -318,8 +318,8 @@ sun_interfaces__srv__PizzaPose_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // structure_needs_at_least_one_member
-  output->structure_needs_at_least_one_member = input->structure_needs_at_least_one_member;
+  // isfinish
+  output->isfinish = input->isfinish;
   return true;
 }
 

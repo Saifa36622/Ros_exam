@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/sun_interfaces
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/sun_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/sun_interfaces
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/sun_interfaces
 
 # Utility rule file for sun_interfaces__py.
 
@@ -87,8 +87,8 @@ rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastr
 rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/sun_interfaces/srv/PizzaPose.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nakarin/RoboticsDevExam2/build/sun_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces/sun_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/nakarin/RoboticsDevExam2/build/sun_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/saifa/Desktop/Ros_exam/build/sun_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces/sun_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/saifa/Desktop/Ros_exam/build/sun_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/sun_interfaces/_sun_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -120,10 +120,10 @@ sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/build: sun_interfaces__py
 .PHONY : sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/build
 
 sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/clean:
-	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces/sun_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/sun_interfaces__py.dir/cmake_clean.cmake
+	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces/sun_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/sun_interfaces__py.dir/cmake_clean.cmake
 .PHONY : sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/clean
 
 sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/sun_interfaces__py /home/nakarin/RoboticsDevExam2/build/sun_interfaces /home/nakarin/RoboticsDevExam2/build/sun_interfaces/sun_interfaces__py /home/nakarin/RoboticsDevExam2/build/sun_interfaces/sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/sun_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/sun_interfaces__py /home/saifa/Desktop/Ros_exam/build/sun_interfaces /home/saifa/Desktop/Ros_exam/build/sun_interfaces/sun_interfaces__py /home/saifa/Desktop/Ros_exam/build/sun_interfaces/sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sun_interfaces__py/CMakeFiles/sun_interfaces__py.dir/depend
 

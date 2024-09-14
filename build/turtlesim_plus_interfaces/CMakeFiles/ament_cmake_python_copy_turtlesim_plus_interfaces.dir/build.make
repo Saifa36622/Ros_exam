@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces
 
 # Utility rule file for ament_cmake_python_copy_turtlesim_plus_interfaces.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/compile
 include CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces:
-	/usr/bin/cmake -E copy_directory /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/rosidl_generator_py/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/ament_cmake_python/turtlesim_plus_interfaces/turtlesim_plus_interfaces
+	/usr/bin/cmake -E copy_directory /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/rosidl_generator_py/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/ament_cmake_python/turtlesim_plus_interfaces/turtlesim_plus_interfaces
 
 ament_cmake_python_copy_turtlesim_plus_interfaces: CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces
 ament_cmake_python_copy_turtlesim_plus_interfaces: CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/src/turtlesim_plus/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces /home/nakarin/RoboticsDevExam2/build/turtlesim_plus_interfaces/CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/src/turtlesim_plus/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces /home/saifa/Desktop/Ros_exam/build/turtlesim_plus_interfaces/CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_turtlesim_plus_interfaces.dir/depend
 

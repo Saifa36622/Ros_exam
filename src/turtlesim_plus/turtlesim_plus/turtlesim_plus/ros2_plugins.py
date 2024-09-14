@@ -201,10 +201,10 @@ class TurtlesimPlusNode(Node):
         """
         self.get_logger().info(prompt)
         
-        request = Spawn.Request()
-        request.name = 'turtle1'
-        response = Spawn.Response()
-        self.spawn_turtle_srv_callback(request,response)
+        # request = Spawn.Request()
+        # request.name = 'turtle1'
+        # response = Spawn.Response()
+        # self.spawn_turtle_srv_callback(request,response)
         
         
     def spawn_turtle_srv_callback(self,request:Spawn.Request,response:Spawn.Response):

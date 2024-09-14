@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/saifa_pack
+CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/saifa_pack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/saifa_pack
+CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/saifa_pack
 
 # Utility rule file for ament_cmake_python_build_saifa_pack_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_saifa_pack_egg:
-	cd /home/nakarin/RoboticsDevExam2/build/saifa_pack/ament_cmake_python/saifa_pack && /usr/bin/python3 setup.py egg_info
+	cd /home/saifa/Desktop/Ros_exam/build/saifa_pack/ament_cmake_python/saifa_pack && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_saifa_pack_egg: CMakeFiles/ament_cmake_python_build_saifa_pack_egg
 ament_cmake_python_build_saifa_pack_egg: CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/depend:
-	cd /home/nakarin/RoboticsDevExam2/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack/CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/saifa/Desktop/Ros_exam/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack/CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_saifa_pack_egg.dir/depend
 

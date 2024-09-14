@@ -92,6 +92,26 @@ namespace sun_interfaces
 namespace srv
 {
 
+namespace builder
+{
+
+class Init_PizzaPose_Response_isfinish
+{
+public:
+  Init_PizzaPose_Response_isfinish()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::sun_interfaces::srv::PizzaPose_Response isfinish(::sun_interfaces::srv::PizzaPose_Response::_isfinish_type arg)
+  {
+    msg_.isfinish = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::sun_interfaces::srv::PizzaPose_Response msg_;
+};
+
+}  // namespace builder
 
 }  // namespace srv
 
@@ -102,7 +122,7 @@ template<>
 inline
 auto build<::sun_interfaces::srv::PizzaPose_Response>()
 {
-  return ::sun_interfaces::srv::PizzaPose_Response(rosidl_runtime_cpp::MessageInitialization::ZERO);
+  return sun_interfaces::srv::builder::Init_PizzaPose_Response_isfinish();
 }
 
 }  // namespace sun_interfaces
