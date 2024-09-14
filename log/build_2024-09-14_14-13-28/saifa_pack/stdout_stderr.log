@@ -1,0 +1,55 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saifa/Desktop/Ros_exam/build/saifa_pack
+[35m[1mConsolidate compiler generated dependencies of target cpp_node_test[0m
+[100%] Built target cpp_node_test
+[100%] Built target ament_cmake_python_copy_saifa_pack
+running egg_info
+writing saifa_pack.egg-info/PKG-INFO
+writing dependency_links to saifa_pack.egg-info/dependency_links.txt
+writing top-level names to saifa_pack.egg-info/top_level.txt
+reading manifest file 'saifa_pack.egg-info/SOURCES.txt'
+writing manifest file 'saifa_pack.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_saifa_pack_egg
+-- Install configuration: ""
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/pythonpath.sh
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/pythonpath.dsv
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack/__init__.py
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack/dummy_module.py
+Listing '/home/saifa/Desktop/Ros_exam/install/saifa_pack/local/lib/python3.10/dist-packages/saifa_pack'...
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/saifa_pack/dummy_script.py
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/saifa_pack/teleop_turtle.py
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/lib/saifa_pack/cpp_node_test
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/ament_index/resource_index/package_run_dependencies/saifa_pack
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/ament_index/resource_index/parent_prefix_path/saifa_pack
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/ament_prefix_path.sh
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/path.sh
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/environment/path.dsv
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/local_setup.bash
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/local_setup.sh
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/local_setup.zsh
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/local_setup.dsv
+-- Installing: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.dsv
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/ament_index/resource_index/packages/saifa_pack
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/cmake/saifa_packConfig.cmake
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/cmake/saifa_packConfig-version.cmake
+-- Up-to-date: /home/saifa/Desktop/Ros_exam/install/saifa_pack/share/saifa_pack/package.xml
