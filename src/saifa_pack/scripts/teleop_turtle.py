@@ -22,8 +22,11 @@ def getKey():
 class TeleopTurtle(Node):
     def __init__(self):
         super().__init__('teleop_turtle')
-        self.publisher = self.create_publisher(Twist, '/turtle1/cmd_vel', 10)
-        self.create_subscription(Pose,'/turtle1/pose',self.turtle_pos,10)
+        self.declare_parameter("name","t_name")
+        self.name = self.get_parameter('name').get_parameter_value().string_value
+        # ros2 run saifa_pack teleop_turtle.py --ros-args -p name:="t_name"
+        self.publisher = self.create_publisher(Twist, '/' +self.name +'/cmd_vel', 10)
+        self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos,10)
         self.timer = self.create_timer(0.1, self.timer_callback)
         self.velocity = Twist()
         self.exit_flag = False
