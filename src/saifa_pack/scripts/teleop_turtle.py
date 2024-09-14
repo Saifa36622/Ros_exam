@@ -27,7 +27,7 @@ class TeleopTurtle(Node):
         self.get_logger().info('TeleopTurtleNode has been started')
         
         self.name = 't_name'
-        
+        # tele = "Teleop"
         # ros2 run saifa_pack teleop_turtle.py --ros-args -p name:="t_name"
         self.publisher = self.create_publisher(Twist, '/' +self.name +'/cmd_vel', 10)
         self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos, 10)

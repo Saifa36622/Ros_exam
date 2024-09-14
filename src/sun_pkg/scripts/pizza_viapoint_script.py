@@ -119,7 +119,6 @@ class PizzaViapointNode(Node):
             
             # Save data to .yaml
             self.get_logger().info(f"Completed to save data to .yaml file")
-            
             self.count_pizza = 0
             self.keep_pose = []
             
