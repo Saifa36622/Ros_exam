@@ -1,0 +1,87 @@
+[0.012s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/nakarin/RoboticsDevExam2/src/sun_pkg -DCMAKE_INSTALL_PREFIX=/home/nakarin/RoboticsDevExam2/install/sun_pkg
+[0.066s] -- The C compiler identification is GNU 11.4.0
+[0.121s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.206s] -- Detecting CXX compiler ABI info
+[0.285s] -- Detecting CXX compiler ABI info - done
+[0.294s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.294s] -- Detecting CXX compile features
+[0.294s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.473s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.593s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.661s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.673s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.713s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.778s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.784s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.878s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.946s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.959s] -- Looking for pthread.h
+[1.028s] -- Looking for pthread.h - found
+[1.029s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.099s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.100s] -- Found Threads: TRUE  
+[1.162s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.335s] -- Configuring done
+[1.343s] -- Generating done
+[1.345s] -- Build files have been written to: /home/nakarin/RoboticsDevExam2/build/sun_pkg
+[1.354s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake /home/nakarin/RoboticsDevExam2/src/sun_pkg -DCMAKE_INSTALL_PREFIX=/home/nakarin/RoboticsDevExam2/install/sun_pkg
+[1.355s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/sun_pkg -- -j8 -l8
+[1.403s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node_test.dir/src/cpp_node.cpp.o[0m
+[1.411s] [ 50%] Built target ament_cmake_python_copy_sun_pkg
+[1.672s] running egg_info
+[1.673s] creating sun_pkg.egg-info
+[1.673s] writing sun_pkg.egg-info/PKG-INFO
+[1.673s] writing dependency_links to sun_pkg.egg-info/dependency_links.txt
+[1.674s] writing top-level names to sun_pkg.egg-info/top_level.txt
+[1.674s] writing manifest file 'sun_pkg.egg-info/SOURCES.txt'
+[1.676s] reading manifest file 'sun_pkg.egg-info/SOURCES.txt'
+[1.677s] writing manifest file 'sun_pkg.egg-info/SOURCES.txt'
+[1.681s] [100%] [32m[1mLinking CXX executable cpp_node_test[0m
+[1.705s] [100%] Built target ament_cmake_python_build_sun_pkg_egg
+[1.787s] [100%] Built target cpp_node_test
+[1.799s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --build /home/nakarin/RoboticsDevExam2/build/sun_pkg -- -j8 -l8
+[1.833s] Invoking command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/sun_pkg
+[1.841s] -- Install configuration: ""
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/pythonpath.sh
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/pythonpath.dsv
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info/PKG-INFO
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg-0.0.0-py3.10.egg-info/top_level.txt
+[1.841s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg
+[1.842s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg/__init__.py
+[1.842s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg/dummy_module.py
+[1.884s] Listing '/home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg'...
+[1.884s] Compiling '/home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg/__init__.py'...
+[1.884s] Compiling '/home/nakarin/RoboticsDevExam2/install/sun_pkg/local/lib/python3.10/dist-packages/sun_pkg/dummy_module.py'...
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/dummy_script.py
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/pizza_viapoint_script.py
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/cpp_node_test
+[1.889s] -- Set runtime path of "/home/nakarin/RoboticsDevExam2/install/sun_pkg/lib/sun_pkg/cpp_node_test" to ""
+[1.889s] -- Up-to-date: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/ament_index/resource_index/package_run_dependencies/sun_pkg
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/ament_index/resource_index/parent_prefix_path/sun_pkg
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/ament_prefix_path.sh
+[1.889s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/ament_prefix_path.dsv
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/path.sh
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/environment/path.dsv
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/local_setup.bash
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/local_setup.sh
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/local_setup.zsh
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/local_setup.dsv
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/package.dsv
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/ament_index/resource_index/packages/sun_pkg
+[1.890s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/cmake/sun_pkgConfig.cmake
+[1.891s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/cmake/sun_pkgConfig-version.cmake
+[1.891s] -- Installing: /home/nakarin/RoboticsDevExam2/install/sun_pkg/share/sun_pkg/package.xml
+[1.893s] Invoked command in '/home/nakarin/RoboticsDevExam2/build/sun_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nakarin/RoboticsDev/install/launch_testing_examples:/home/nakarin/RoboticsDev/install/examples_rclpy_pointcloud_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_subscriber:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_service:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_publisher:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_client:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_server:/home/nakarin/RoboticsDev/install/examples_rclpy_minimal_action_client:/home/nakarin/RoboticsDev/install/examples_rclpy_guard_conditions:/home/nakarin/RoboticsDev/install/examples_rclpy_executors:/opt/ros/humble /usr/bin/cmake --install /home/nakarin/RoboticsDevExam2/build/sun_pkg

@@ -1,0 +1,3 @@
+float32[] x 
+float32[] y
+int32 number # The number of times this data has been sent
