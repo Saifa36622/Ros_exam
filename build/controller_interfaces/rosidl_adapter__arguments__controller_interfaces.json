@@ -1,0 +1,7 @@
+{
+  "package_name": "controller_interfaces",
+  "non_idl_tuples": [
+    "/home/nakarin/RoboticsDevExam2/src/controller_interfaces:srv/SetParam.srv",
+    "/home/nakarin/RoboticsDevExam2/src/controller_interfaces:srv/SetTarget.srv"
+  ]
+}
