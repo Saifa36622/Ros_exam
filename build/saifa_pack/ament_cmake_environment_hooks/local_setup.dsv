@@ -1,0 +1,3 @@
+source;share/saifa_pack/environment/ament_prefix_path.sh
+source;share/saifa_pack/environment/path.sh
+source;share/saifa_pack/environment/pythonpath.sh
