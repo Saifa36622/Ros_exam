@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/saifa_pack
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/saifa_pack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/saifa_pack
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/saifa_pack
 
 # Utility rule file for ament_cmake_python_copy_saifa_pack.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_saifa_pack:
-	/usr/bin/cmake -E copy_directory /home/saifa/Desktop/Ros_exam/src/saifa_pack/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack/ament_cmake_python/saifa_pack/saifa_pack
+	/usr/bin/cmake -E copy_directory /home/nakarin/RoboticsDevExam2/src/saifa_pack/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack/ament_cmake_python/saifa_pack/saifa_pack
 
 ament_cmake_python_copy_saifa_pack: CMakeFiles/ament_cmake_python_copy_saifa_pack
 ament_cmake_python_copy_saifa_pack: CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/src/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack /home/saifa/Desktop/Ros_exam/build/saifa_pack/CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/saifa_pack && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/src/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack /home/nakarin/RoboticsDevExam2/build/saifa_pack/CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_saifa_pack.dir/depend
 

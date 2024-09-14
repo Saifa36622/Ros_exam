@@ -32,6 +32,7 @@ class TeleopTurtle(Node):
         self.publisher = self.create_publisher(Twist, '/' +self.name +'/cmd_vel', 10)
         self.create_subscription(Pose,'/' +self.name + '/pose',self.turtle_pos, 10)
         
+        self.clear_pizza_client = self.create_client(Trigger, 'clear_pizza')
         self.ready_to_spawn_pizza = self.create_client(GivePosition, 'ready_to_spawn_pizza')
         self.save_pizza_client = self.create_client(Trigger, 'save_pizza')
         self.eatable_pizza_client = self.create_client(PizzaPose, 'eatable_pizza')
@@ -80,14 +81,8 @@ class TeleopTurtle(Node):
                 
         elif key == 'c':
             # eat all of the keep pose -> send keep pose to teleop controller 
-            temp_x = []
-            temp_y = []
-            
-            for i in range (len(self.keep_pose)):
-                temp_x.append(self.keep_pose[i][0])
-                temp_y.append(self.keep_pose[i][1])
-            # self.eatable_pizza_request(temp_x, temp_y)
-            self.keep_pose = []
+            request = Trigger.Request()
+            self.clear_pizza_client.call_async(request)
             self.get_logger().info("Clear pizza")
             
         elif key == 'e':

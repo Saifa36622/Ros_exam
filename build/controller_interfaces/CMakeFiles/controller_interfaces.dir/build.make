@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/saifa/Desktop/Ros_exam/src/controller_interfaces
+CMAKE_SOURCE_DIR = /home/nakarin/RoboticsDevExam2/src/controller_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/saifa/Desktop/Ros_exam/build/controller_interfaces
+CMAKE_BINARY_DIR = /home/nakarin/RoboticsDevExam2/build/controller_interfaces
 
 # Utility rule file for controller_interfaces.
 
@@ -66,10 +66,10 @@ include CMakeFiles/controller_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/controller_interfaces.dir/progress.make
 
-CMakeFiles/controller_interfaces: /home/saifa/Desktop/Ros_exam/src/controller_interfaces/srv/SetParam.srv
+CMakeFiles/controller_interfaces: /home/nakarin/RoboticsDevExam2/src/controller_interfaces/srv/SetParam.srv
 CMakeFiles/controller_interfaces: rosidl_cmake/srv/SetParam_Request.msg
 CMakeFiles/controller_interfaces: rosidl_cmake/srv/SetParam_Response.msg
-CMakeFiles/controller_interfaces: /home/saifa/Desktop/Ros_exam/src/controller_interfaces/srv/SetTarget.srv
+CMakeFiles/controller_interfaces: /home/nakarin/RoboticsDevExam2/src/controller_interfaces/srv/SetTarget.srv
 CMakeFiles/controller_interfaces: rosidl_cmake/srv/SetTarget_Request.msg
 CMakeFiles/controller_interfaces: rosidl_cmake/srv/SetTarget_Response.msg
 CMakeFiles/controller_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
@@ -146,6 +146,6 @@ CMakeFiles/controller_interfaces.dir/clean:
 .PHONY : CMakeFiles/controller_interfaces.dir/clean
 
 CMakeFiles/controller_interfaces.dir/depend:
-	cd /home/saifa/Desktop/Ros_exam/build/controller_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/saifa/Desktop/Ros_exam/src/controller_interfaces /home/saifa/Desktop/Ros_exam/src/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces /home/saifa/Desktop/Ros_exam/build/controller_interfaces/CMakeFiles/controller_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nakarin/RoboticsDevExam2/build/controller_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nakarin/RoboticsDevExam2/src/controller_interfaces /home/nakarin/RoboticsDevExam2/src/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces /home/nakarin/RoboticsDevExam2/build/controller_interfaces/CMakeFiles/controller_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_interfaces.dir/depend
 

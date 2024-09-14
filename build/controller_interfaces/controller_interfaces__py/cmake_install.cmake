@@ -1,8 +1,8 @@
-# Install script for directory: /home/saifa/Desktop/Ros_exam/build/controller_interfaces/controller_interfaces__py
+# Install script for directory: /home/nakarin/RoboticsDevExam2/build/controller_interfaces/controller_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/saifa/Desktop/Ros_exam/install/controller_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/nakarin/RoboticsDevExam2/install/controller_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
