@@ -44,9 +44,18 @@ to open tele-operation file to control the turtle in this project
 <br>
 
 then you might have too install some additional libraly for this project 
-* for read/edit/etc .yaml file you need to install pyyaml
+* pyyaml for read or edit or etc .yaml
 ```
 pip install pyyaml
+```
+* RQT for visualize and modify ROS parameters or watch the graph of ros communication in real-time.
+```
+sudo apt-get update
+sudo apt-get install ros-humble-rqt*
+```
+then use rqt or rqt_graph to test your rqt interface.
+```
+rqt
 ```
 
 # System Architect
@@ -122,6 +131,7 @@ the control parameter ,So the code that control the spped is going to look like 
 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
 
+* Parameter set
 
 
 
