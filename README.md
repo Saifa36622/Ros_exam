@@ -88,7 +88,7 @@ and from the upper imagge it going to indicate that these node going  to be the 
 
 this node we create it to use to convert the pos or position input that we recieve from the user via the tele-op node that parse to this node ,this node will convert all those data to .yaml file (one of the kind of config file that easy to use)
 to be use in the future
-
+##### (Normally .yaml file will automatically generate with the folder to source this file on your desktop->ros2_yaml_files->pizza_pose.yaml) ##### 
 
 <br>
 
@@ -144,9 +144,6 @@ the control parameter ,So the code that control the spped is going to look like 
 ![image](https://github.com/user-attachments/assets/010c5b30-ad02-40df-afa3-d3f077fb1fa2)
 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
-
-* Parameter set
-
 
 * Spawn pizza
   Just like when you using tele-op you need to run this command first
