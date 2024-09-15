@@ -45,6 +45,7 @@ to open tele-operation file to control the turtle in this project
 
 then you might have too install some additional libraly for this project 
 * pyyaml for read or edit or etc .yaml
+
 ```
 pip install pyyaml
 ```
@@ -87,6 +88,15 @@ and from the upper imagge it going to indicate that these node going  to be the 
 
 this node we create it to use to convert the pos or position input that we recieve from the user via the tele-op node that parse to this node ,this node will convert all those data to .yaml file (one of the kind of config file that easy to use)
 to be use in the future
+
+
+<br>
+
+- **Copy or cp Architect**
+
+![image](https://github.com/user-attachments/assets/3ef36d7c-4c90-4e24-aa7c-765f96d9d33a)
+
+All this cp having the same architect cuase it came from the same node call cp_controller than been duplicate in to 4 node by launch file ,These 4 node is use to mimick the user Behavior when press the key and duplicate that behavior so in this node is going to have the main component simiilar to the teleop node but the cmd_vel or the pose is going to be fully auto ,and the sum_callback is use to signal all the duplicate node when all of the duplicae nodeis finish doing they task 
 
 # Fuction available
 * Teleoperation
