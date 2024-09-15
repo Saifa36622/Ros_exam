@@ -54,7 +54,7 @@ pip install pyyaml
 sudo apt-get update
 sudo apt-get install ros-humble-rqt*
 ```
-* To launch RQT, open a new terminal and run the following command:
+  To launch RQT, open a new terminal and run the following command:
 ```
 rqt
 ```
