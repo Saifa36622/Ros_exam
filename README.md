@@ -227,7 +227,7 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ros2 param get <node_name> <parameter_name>
   ```
   to check the value of parameter
-* Launch file <br>
+* Launch file and Luanch file argument <br>
   ```
   ros2 launch saifa_pack turtle_1.launch.py
   ```
