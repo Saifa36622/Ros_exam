@@ -54,7 +54,7 @@ pip install pyyaml
 sudo apt-get update
 sudo apt-get install ros-humble-rqt*
 ```
-  To launch RQT, open a new terminal and run the following command:
+To launch RQT, open a new terminal and run the following command:
 ```
 rqt
 ```
@@ -141,7 +141,8 @@ the control parameter ,So the code that control the spped is going to look like 
 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
 
-* Parameter set
+* Modify ROS Parameters Using RQT
+Once RQT is launched, follow these steps to visualize and modify the parameters:
 
 
 
