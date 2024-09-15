@@ -7,6 +7,13 @@ def generate_launch_description():
 
     launch_des = LaunchDescription()
 
+    # Declare the namespace argument
+    DeclareLaunchArgument(
+        'turtle1_name',
+        default_value='t_name',
+        description='Namespace for the turtle1'
+    )
+    
     turtlesim = Node(
     package='turtlesim_plus',
     namespace="",
@@ -15,20 +22,8 @@ def generate_launch_description():
     )
 
     launch_des.add_action(turtlesim)
-
-    # interface_name = 'turtlesim/srv/Kill'
-    # cmd2 = (
-    # f'ros2 service call /{name}/remove_turtle {interface_name} "{{name: \\"/{name}/turtle1\\"}}"'
-
-    # )
-
-    # kill_turtle = ExecuteProcess(
-    #     cmd=[cmd2],
-    #     shell=True
-    # )
-    # launch_des.add_action(kill_turtle)
     
-    name = "t_name"
+    name = LaunchConfiguration('turtle1_name')
     interface_name = 'turtlesim/srv/Spawn'
     cmd2 = (
     f'ros2 service call /spawn_turtle {interface_name} '

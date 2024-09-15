@@ -1,7 +1,0 @@
-setup.py
-saifa_pack/__init__.py
-saifa_pack/dummy_module.py
-saifa_pack.egg-info/PKG-INFO
-saifa_pack.egg-info/SOURCES.txt
-saifa_pack.egg-info/dependency_links.txt
-saifa_pack.egg-info/top_level.txt
