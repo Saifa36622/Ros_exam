@@ -141,8 +141,7 @@ the control parameter ,So the code that control the spped is going to look like 
 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
 
-* Modify ROS Parameters Using RQT.
-  In this project we have main parameter is for pizza node call max_pizza that tell we how much pizza can generate on 1 turtle ana other parameter that we can also use are controller gain of turtles
+* Modify ROS Parameters Using RQT. In this project we have main parameter is for pizza node call max_pizza that tell we how much pizza can generate on 1 turtle ana other parameter that we can also use are controller gain of turtles.
 
   Once RQT is launched, follow these steps to visualize and modify the parameters:
 
