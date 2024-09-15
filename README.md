@@ -43,8 +43,11 @@ to open tele-operation file to control the turtle in this project
 
 <br>
 
-then you might have too load some additional libraly for this project
-* s
+then you might have too install some additional libraly for this project
+```
+pip install pyyaml
+```
+for read/edit/etc .yaml file
 
 # System Architect
 
