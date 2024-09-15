@@ -146,7 +146,7 @@ and we use a little bit pythagoras theory to find a Distance betweeen point and 
   Once RQT is launched, follow these steps to visualize and modify the parameters:
 
   1.Open the Parameter Plugin:
-  In RQT, go to the Plugins menu at the top, navigate to Configuration → Dynamic Reconfigure. This will open the Parameter window, where you can view and modify the active parameters in your system.
+  In RQT, go to the Plugins menu at the top, navigate to Configuration → Dynamic Reconfigure or Parameter Reconfigure. This will open the Parameter window, where you can view and modify the active parameters in your system.
 
 ![image](https://github.com/user-attachments/assets/961c00e3-1b6a-46a7-b8ca-d31a41fc7593)
 ![image](https://github.com/user-attachments/assets/843fe3f6-618d-462b-bf7b-92f50000a681)
