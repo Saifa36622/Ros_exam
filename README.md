@@ -87,6 +87,11 @@ to be use in the future
 ![image](https://github.com/user-attachments/assets/3ef36d7c-4c90-4e24-aa7c-765f96d9d33a)
 
 All this cp having the same architect cuase it came from the same node call cp_controller than been duplicate in to 4 node by launch file ,These 4 node is use to mimick the user Behavior when press the key and duplicate that behavior so in this node is going to have the main component simiilar to the teleop node but the cmd_vel or the pose is going to be fully auto ,and the sum_callback is use to signal all the duplicate node when all of the duplicae nodeis finish doing they task 
+<br>
+
+![image](https://github.com/user-attachments/assets/ae5c9a38-7f66-40e0-ba61-3a046253ff60)
+
+and obviosly all those node have the param in the node from the same constuct so all those param is going to connect with the topic parameter event
 
 # Fuction available
 * Teleoperation
