@@ -142,17 +142,18 @@ the control parameter ,So the code that control the spped is going to look like 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
 
 * Modify ROS Parameters Using RQT
+
 Once RQT is launched, follow these steps to visualize and modify the parameters:
--Open the Parameter Plugin:
+1.Open the Parameter Plugin:
 In RQT, go to the Plugins menu at the top, navigate to Configuration → Parameters. This will open the Parameter window, where you can view and modify the active parameters in your system.
 
--Select the Node:
+2.Select the Node:
 On the left panel of the Parameter window, you will see a list of active nodes. Select the node whose parameters you wish to modify.
 
--Edit Parameters:
+3.Edit Parameters:
 Once you select the node, its parameters will be displayed. To modify a parameter, simply click on the value field next to the parameter name and enter the new value.
 
--Apply Changes:
+4.Apply Changes:
 After modifying the parameter, press Enter to apply the change. This will update the parameter in real-time on the running node.
 
 
