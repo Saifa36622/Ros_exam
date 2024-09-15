@@ -135,7 +135,6 @@ So this termianl is going to be use to control the turtle on the termminal ,
  ### warning: If you want to control the turtle you should left a click at the Teleoperation window all the time ###
  ##### (if you cannot control the turtle try to click at the terminal agian) ##### 
   ![image](https://github.com/user-attachments/assets/2ef03283-721a-4e66-956e-099f733f3c49)
-
   So we done the Tele-op base on that 
 ![image](https://github.com/user-attachments/assets/76410962-07cf-4850-90f3-2f5e63005003)
 this Tele-op are going to be a node that going to input the pos or posiotion in the present of the t_name (turtle name)
@@ -149,11 +148,53 @@ and we use a little bit pythagoras theory to find a Distance betweeen point and 
 * Parameter set
 
 
-
-
+* Spawn pizza
+  Just like when you using tele-op you need to run this command first
+  ```
+  ros2 launch saifa_pack turtle_1.launch.py
+  ```
+  and then this command 
+  ```
+  ros2 run saifa_pack teleop_turtle.py
+  ```
+  #### Keyblind 
+  - r to spawn a pizza
   
+  
+![image](https://github.com/user-attachments/assets/dfe7a7c3-281c-4960-ab8d-965bb2e7e4f2)
 
 
+So to spawn a pizza from the turtle position we need get the live position of the turtle and then call the service /spawn_pizza to spawn the pizza like the image below
+
+  ![image](https://github.com/user-attachments/assets/9fc5204a-9db9-425e-963f-5cabef103b8c)
+
+* Save and Clear <br>
+
+   Just like when you using some above, you need to run this command first
+  ```
+  ros2 launch saifa_pack turtle_1.launch.py
+  ```
+  and then this command 
+  ```
+  ros2 run saifa_pack teleop_turtle.py
+  ```
+  #### Keyblind 
+  - u to save the pizza position (to .yaml file) 
+  - c to clear all the pizza( the turtle will eat all the pizza that not been save)
+
+  when you successly save this log going to show up to indicate that save have been complete 
+  
+  ![image](https://github.com/user-attachments/assets/1f360022-06da-47ec-b175-7f4b5e70ee7b)
+  
+  <br>
+
+   when you press clear to clear all the unnessecerry pizza
+
+  ![image](https://github.com/user-attachments/assets/512ed4b3-0df9-4aff-8122-d6d55e992c91)
+
+  the turtle going to start eating all the pizza 
+
+ 
 
 
 
