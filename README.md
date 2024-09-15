@@ -235,7 +235,7 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ```
   ros2 launch saifa_pack turtle_1.launch.py turtle1_name:=<turtle_teleop_name>
   ```
-  example
+  Example:
   ```
   ros2 launch saifa_pack turtle_1.launch.py turtle1_name:="InwZa"
   ```
