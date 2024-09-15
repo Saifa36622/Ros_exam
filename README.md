@@ -174,6 +174,7 @@ and we use a little bit pythagoras theory to find a Distance betweeen point and 
   ```
   ros2 param get <node_name> <parameter_name>
   ```
+  to check the value of parameter
 
 
 
