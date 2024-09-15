@@ -43,11 +43,11 @@ to open tele-operation file to control the turtle in this project
 
 <br>
 
-then you might have too install some additional libraly for this project
+then you might have too install some additional libraly for this project 
+* for read/edit/etc .yaml file you need to install pyyaml
 ```
 pip install pyyaml
 ```
-for read/edit/etc .yaml file
 
 # System Architect
 
@@ -110,6 +110,8 @@ the control parameter ,So the code that control the spped is going to look like 
 ![image](https://github.com/user-attachments/assets/010c5b30-ad02-40df-afa3-d3f077fb1fa2)
 
 and we use a little bit pythagoras theory to find a Distance betweeen point and robot 
+
+
 
 
 
