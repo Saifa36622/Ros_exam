@@ -7,6 +7,13 @@ def generate_launch_description():
 
     launch_des = LaunchDescription()
 
+    # Declare the namespace argument
+    DeclareLaunchArgument(
+        'turtle1_name',
+        default_value='t_name',
+        description='Namespace for the turtle1'
+    )
+    
     turtlesim = Node(
     package='turtlesim_plus',
     namespace="",
@@ -15,24 +22,12 @@ def generate_launch_description():
     )
 
     launch_des.add_action(turtlesim)
-
-    # interface_name = 'turtlesim/srv/Kill'
-    # cmd2 = (
-    # f'ros2 service call /{name}/remove_turtle {interface_name} "{{name: \\"/{name}/turtle1\\"}}"'
-
-    # )
-
-    # kill_turtle = ExecuteProcess(
-    #     cmd=[cmd2],
-    #     shell=True
-    # )
-    # launch_des.add_action(kill_turtle)
     
-    name = "t_name"
+    name = LaunchConfiguration('turtle1_name')
     interface_name = 'turtlesim/srv/Spawn'
     cmd2 = (
     f'ros2 service call /spawn_turtle {interface_name} '
-    f'"{{x: {0.0}, y: {0.0}, theta: {0.0}, name: {name}}}"'
+    f'"{{x: {0.1}, y: {0.1}, theta: {0.0}, name: {name}}}"'
     )
 
     set_turtle = ExecuteProcess(
@@ -74,7 +69,7 @@ def generate_launch_description():
     for i in range(4):
         cmd2 = (
         f'ros2 service call /{cl}/spawn_turtle {interface_name} '
-        f'"{{x: {0.0}, y: {0.0}, theta: {0.0}, name: {turtle_name[i]}}}"'
+        f'"{{x: {0.1}, y: {0.1}, theta: {0.0}, name: {turtle_name[i]}}}"'
         )
 
         set_turtle = ExecuteProcess(
@@ -99,7 +94,14 @@ def generate_launch_description():
     )
 
     launch_des.add_action(sum_n)
+    
+    start_cp = Node(
+    package='sun_pkg',
+    namespace="cp",
+    executable='start_copy_script.py',
+    name='start_cp'
+    )
+    
+    launch_des.add_action(start_cp)
 
     return launch_des
-
-

@@ -35,7 +35,8 @@ class PizzaViapointNode(Node):
         # Create the service client
         self.clear_pizza_to_controller = self.create_client(PizzaPose, 'eatable_pizza')
         self.spawn_pizza_client = self.create_client(GivePosition, 'spawn_pizza')
-        self.read_pizza_pose_client = self.create_client(Trigger, 'read_pizza_pose')
+        self.read_pizza_pose_client = self.create_client(Trigger, '/read_pizza_pose')
+        self.finish_auto_client = self.create_client(Trigger, 'finish_auto')
         
         # Define the output YAML file path
         output_dir = os.path.expanduser('~/ros2_yaml_files')  # Creates file in the home directory
@@ -87,6 +88,9 @@ class PizzaViapointNode(Node):
             return response
         else :
             self.get_logger().info("Don't have pizza on the floor")
+            temp_req = Trigger.Request()
+            self.finish_auto_client.call_async(temp_req)
+            return response
     
     def spawn_pizza_request(self, request, response):
         
@@ -100,7 +104,7 @@ class PizzaViapointNode(Node):
             self.get_logger().info(f'Pizza spawn: {self.count_pizza} pcs')
             return response
         else :
-            self.get_logger().warning(f'Just spawn pizza only {self.max_pizza} mother fucker')
+            self.get_logger().warning(f'Spawn pizza for 1 turtle is limit at {self.max_pizza} ')
             return response
     
     def save_pizza_callback(self, request, response):
@@ -123,14 +127,20 @@ class PizzaViapointNode(Node):
             self.keep_pose = []
             
             if self.update_number == 4:
-                self.update_number += 1
                 request = Trigger.Request()
+                self.get_logger().info("Sending data to copy/turtlesim_plus")
+                self.update_number += 1
                 self.read_pizza_pose_client.call_async(request)
+                # rclpy.spin_until_future_complete(self, future)
+                # if future.result() is not None:
+                #     self.get_logger().info(f"Successfully sent data to copy/turtlesim_plus")
+                # else:
+                #     self.get_logger().error(f"Failed to send data to copy/turtlesim_plus")
                 
                 return response
             return response
         else:
-            self.get_logger().warning(f"Can't update pizza position after {self.update_number} times")  
+            self.get_logger().warning(f"Can't update pizza position after {self.update_number - 1} times")  
             return response
     
     def clear_yaml(self, file_path):
@@ -140,14 +150,10 @@ class PizzaViapointNode(Node):
         
     def append_yaml(self, yaml_file_path, data, number):
         """
-        Appends the 3D array with the number element to the YAML file.
+        Appends a 2D array to the 'pizza_pose' key in the YAML file.
         Arguments:
-        - data: The 3D array to append
-        - number: The number to append as part of the array
+        - data: The 2D array to append (a list of lists)
         """
-        # Add the number as a separate list at the end of the 3D array
-        modified_data = data + [[number]]
-
         try:
             # Load existing content if the file exists
             if os.path.exists(yaml_file_path):
@@ -156,17 +162,21 @@ class PizzaViapointNode(Node):
             else:
                 existing_data = {}
 
-            # If 'my_3d_array' key exists, append to the existing list
+            # If 'pizza_pose' key exists, append to the existing 2D array
             if 'pizza_pose' in existing_data:
-                existing_data['pizza_pose'].append(modified_data)
+                if isinstance(existing_data['pizza_pose'], list):
+                    existing_data['pizza_pose'].extend(data)
+                else:
+                    self.get_logger().error("'pizza_pose' is not a list, unable to append.")
             else:
-                existing_data['pizza_pose'] = [modified_data]
+                # If 'pizza_pose' doesn't exist, create it as a 2D array
+                existing_data['pizza_pose'] = data
 
             # Write back the updated content to the YAML file
             with open(yaml_file_path, 'w') as yaml_file:
                 yaml.dump(existing_data, yaml_file, default_flow_style=False)
 
-            self.get_logger().info(f'3D array with number appended to {yaml_file_path}')
+            self.get_logger().info(f'2D array appended to {yaml_file_path}')
             
         except Exception as e:
             self.get_logger().error(f"Failed to append to YAML file: {str(e)}")

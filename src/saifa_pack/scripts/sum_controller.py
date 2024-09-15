@@ -48,19 +48,28 @@ class sum_controller(Node):
         self.pub_sum = self.create_publisher(Int32,'/sum_callback',10)
 
     def Foxy_callback(self,x):
+        # self.get_logger().info(f"{x.data}")
         self.f = x.data
     def Noetic_callback(self,x):
+        # self.get_logger().info(f"{x.data}")
         self.n = x.data
     def Humble_callback(self,x):
+        # self.get_logger().info(f"{x.data}")
         self.h = x.data
     def Iron_callback(self,x):
+        # self.get_logger().info(f"{x.data}")
         self.i = x.data
 
 
     def timmer_callback(self):
+        msg = Int32()
         if self.f and self.n and self.i and self.h:
-            msg = Int32()
             msg.data = 1
+            # self.get_logger().info(f"{msg.data}")
+            self.pub_sum.publish(msg)
+        else:
+            msg.data = 0
+            # self.get_logger().info(f"{msg.data}")
             self.pub_sum.publish(msg)
 
 def main(args=None):

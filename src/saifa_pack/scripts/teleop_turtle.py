@@ -72,7 +72,6 @@ class TeleopTurtle(Node):
             elif key == 'd':
                 self.velocity.linear.x = 0.0
                 self.velocity.angular.z = -2.0
-                return
             elif key == 'r':
                 position_request = Trigger.Request()
                 self.ready_to_spawn_pizza.call_async(position_request)
