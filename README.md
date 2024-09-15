@@ -54,7 +54,7 @@ pip install pyyaml
 sudo apt-get update
 sudo apt-get install ros-humble-rqt*
 ```
-then use rqt or rqt_graph to test your rqt interface.
+To launch RQT, open a new terminal and run the following command:
 ```
 rqt
 ```
@@ -193,6 +193,40 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ![image](https://github.com/user-attachments/assets/512ed4b3-0df9-4aff-8122-d6d55e992c91)
 
   the turtle going to start eating all the pizza
+* Modify ROS Parameters Using RQT. In this project we have main parameter is for pizza node call max_pizza that tell we how much pizza can generate on 1 turtle ana other parameter that we can also use are controller gain of turtles.
+
+  Once RQT is launched, follow these steps to visualize and modify the parameters:
+
+  1.Open the Parameter Plugin:
+  In RQT, go to the Plugins menu at the top, navigate to Configuration → Dynamic Reconfigure or Parameter Reconfigure. This will open the Parameter window, where you can view and modify the active parameters in your system.
+
+![image](https://github.com/user-attachments/assets/961c00e3-1b6a-46a7-b8ca-d31a41fc7593)
+![image](https://github.com/user-attachments/assets/843fe3f6-618d-462b-bf7b-92f50000a681)
+
+  2.Select the Node:
+  On the left panel of the Parameter window, you will see a list of active nodes. Select the node whose parameters you wish to modify.
+
+![image](https://github.com/user-attachments/assets/b741c3b5-3194-48f9-9cd6-237be911a5ec)
+
+  3.Edit Parameters:
+  Once you select the node, its parameters will be displayed. To modify a parameter, simply click on the value field next to the parameter name and enter the new value.
+
+![image](https://github.com/user-attachments/assets/33f5bdc6-c8af-476e-bd97-95b30e314980)
+
+  4.Apply Changes:
+  After modifying the parameter, press Enter to apply the change. This will update the parameter in real-time on the running node.
+
+  
+  5.Check parameter:
+  if you want to check the parameters that you are modify are update.
+  ```
+  ros2 param list
+  ```
+  to check the list of parameters
+  ```
+  ros2 param get <node_name> <parameter_name>
+  ```
+  to check the value of parameter
 * Launch fiile 
 
  
