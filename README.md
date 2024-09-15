@@ -54,7 +54,7 @@ pip install pyyaml
 sudo apt-get update
 sudo apt-get install ros-humble-rqt*
 ```
-then use rqt or rqt_graph to test your rqt interface.
+To launch RQT, open a new terminal and run the following command:
 ```
 rqt
 ```
