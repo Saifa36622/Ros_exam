@@ -227,7 +227,17 @@ So to spawn a pizza from the turtle position we need get the live position of th
   ros2 param get <node_name> <parameter_name>
   ```
   to check the value of parameter
-* Launch fiile 
+* Launch fiile
+  launch file is use to run a lot of file in one comand line such as in this project we use lauch file name `turtle_1.launch.py` in the saifa_pack (package) and in this lauch file consisting of file or executeing file such as
+
+  - turtlesim_plus_node -> the turtle sim we use ( the black background when terminal open)
+  - execute command line "spawn" to spawn turtle
+  - teleop_controller -> to control the teleop turltle when user want to clear
+  - pizza_viapoint_script -> to convert the pose data to .ymal file
+  - turtlesim_plus_node that have a namespace cp -> to be another terminal for cp bot
+  - for loop that going to loop 4 time to spawn turtle and create node controller for turtle_name "Foxy","Noetic","Humble","Iron"
+  - sum_controller -> to be a signal node for all cp bot to move when finish at the same time
+  - start_copy_script -> to be the node that going to read from .yaml file that been save and send send the right data to all cp bot 
 
  
 
